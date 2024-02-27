@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="watch_face_name">
+		Concentric
+	</string>
+	<string name="color">
+		Color
+	</string>
+	<string name="index">
+		Index
+	</string>
+	<string name="index_0">
+		Full
+	</string>
+	<string name="index_1">
+		Partial
+	</string>
+	<string name="index_2">
+		-
+	</string>
+	<string name="aod_style">
+		AOD Style
+	</string>
+	<string name="aod_0">
+		Deafult AOD
+	</string>
+	<string name="aod_1">
+		Ring &amp; Index
+	</string>
+	<string name="aod_2">
+		Index
+	</string>
+	<string name="aod_3">
+		Only Time
+	</string>
+	<string name="aod_pill">
+		AOD Pill
+	</string>
+	<string name="smoother">
+		Smoother
+	</string>
+	<string name="aod_complication">
+		AOD Complication
+	</string>
+	<string name="cloud">
+		Cloud
+	</string>
+	<string name="snow">
+		Snow
+	</string>
+	<string name="watermelon">
+		Watermelon
+	</string>
+	<string name="pumpkin">
+		Pumpkin
+	</string>
+	<string name="coral">
+		Coral
+	</string>
+	<string name="gold">
+		Gold
+	</string>
+	<string name="sunshine">
+		Sunshine
+	</string>
+	<string name="lime">
+		Lime
+	</string>
+	<string name="forest">
+		Forest
+	</string>
+	<string name="mint">
+		Mint
+	</string>
+	<string name="pepper_mint">
+		Pepper Mint
+	</string>
+	<string name="turquoise">
+		Turquoise
+	</string>
+	<string name="baby_blue">
+		Baby Blue
+	</string>
+	<string name="sky">
+		Sky
+	</string>
+	<string name="ocean">
+		Ocean
+	</string>
+	<string name="lavender">
+		Lavender
+	</string>
+	<string name="amethyst">
+		Amethyst
+	</string>
+	<string name="royal">
+		Royal
+	</string>
+	<string name="floral">
+		Floral
+	</string>
+	<string name="flamingo">
+		Flamingo
+	</string>
+	<string name="cotton_candy">
+		Cotton Candy
+	</string>
+	<string name="pink_lemonade">
+		Pink Lemonade
+	</string>
+	<string name="minty_yellow">
+		Minty Yellow
+	</string>
+	<string name="aqua">
+		Aqua
+	</string>
+	<string name="blue_lavender">
+		Blue Lavender
+	</string>
+	<string name="emerald">
+		Emerald
+	</string>
+	<string name="tangerine">
+		Tangerine
+	</string>
+	<string name="mango">
+		Mango
+	</string>
+	<string name="apricot">
+		Apricot
+	</string>
+	<string name="aquamarine">
+		Aquamarine
+	</string>
+	<string name="complication">
+		Complication
+	</string>
+</resources>
+
+
+
+				

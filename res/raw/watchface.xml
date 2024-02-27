@@ -1,0 +1,640 @@
+<?xml version="1.0"?>
+<WatchFace width="450" height="450" clipShape="CIRCLE">
+	<Metadata key="CLOCK_TYPE" value="DIGITAL" />
+	<Metadata key="PREVIEW_TIME" value="12:45:00" />
+	<UserConfigurations>
+		<ColorConfiguration id="themeColor" defaultValue="0" displayName="color">
+			<ColorOption id="0" displayName="cloud" colors="#ffa7a7a7 #ffa7a7a7 #ffa7a7a7" />
+			<ColorOption id="1" displayName="snow" colors="#ffffffff #ffffffff #ffffffff" />
+			<ColorOption id="2" displayName="watermelon" colors="#ffe96868 #ffe96868 #ffe96868" />
+			<ColorOption id="3" displayName="pumpkin" colors="#fff48465 #fff48465 #fff48465" />
+			<ColorOption id="4" displayName="coral" colors="#ffc0a489 #ffc0a489 #ffc0a489" />
+			<ColorOption id="5" displayName="gold" colors="#fff4af65 #fff4af65 #fff4af65" />
+			<ColorOption id="6" displayName="sunshine" colors="#ffe6d469 #ffe6d469 #ffe6d469" />
+			<ColorOption id="7" displayName="lime" colors="#ffb7e26e #ffb7e26e #ffb7e26e" />
+			<ColorOption id="8" displayName="forest" colors="#ffaac588 #ffaac588 #ffaac588" />
+			<ColorOption id="9" displayName="mint" colors="#ff88c58e #ff88c58e #ff88c58e" />
+			<ColorOption id="10" displayName="pepper_mint" colors="#ff6ee294 #ff6ee294 #ff6ee294" />
+			<ColorOption id="11" displayName="turquoise" colors="#ff83d7ba #ff83d7ba #ff83d7ba" />
+			<ColorOption id="12" displayName="baby_blue" colors="#ffaed3fb #ffaed3fb #ffaed3fb" />
+			<ColorOption id="13" displayName="sky" colors="#ff99b4c5 #ff99b4c5 #ff99b4c5" />
+			<ColorOption id="14" displayName="ocean" colors="#ff79b1f3 #ff79b1f3 #ff79b1f3" />
+			<ColorOption id="15" displayName="lavender" colors="#ff9281ef #ff9281ef #ff9281ef" />
+			<ColorOption id="16" displayName="amethyst" colors="#ffb08cd1 #ffb08cd1 #ffb08cd1" />
+			<ColorOption id="17" displayName="royal" colors="#ff9990be #ff9990be #ff9990be" />
+			<ColorOption id="18" displayName="floral" colors="#ffc091eb #ffc091eb #ffc091eb" />
+			<ColorOption id="19" displayName="flamingo" colors="#ffe58bb6 #ffe58bb6 #ffe58bb6" />
+			<ColorOption id="20" displayName="cotton_candy" colors="#ffe0b2fc #ffff8ed3 #ffe0b2fc" />
+			<ColorOption id="21" displayName="pink_lemonade" colors="#ff8ec2df #ffe58bb6 #ff8ec2df" />
+			<ColorOption id="22" displayName="minty_yellow" colors="#ffb0e6de #ffedd854 #ffb0e6de" />
+			<ColorOption id="23" displayName="aqua" colors="#ffaed6fb #ff86b0fa #ffaed6fb" />
+			<ColorOption id="24" displayName="blue_lavender" colors="#ffada5fc #ffa4beff #ffada5fc" />
+			<ColorOption id="25" displayName="emerald" colors="#ff83d7ba #ffabd686 #ff83d7ba" />
+			<ColorOption id="26" displayName="tangerine" colors="#ffedb789 #fff97254 #ffedb789" />
+			<ColorOption id="27" displayName="mango" colors="#fff3976b #fff8d280 #fff3976b" />
+			<ColorOption id="28" displayName="apricot" colors="#ffc3a6ee #fffec086 #ffc3a6ee" />
+			<ColorOption id="29" displayName="aquamarine" colors="#ffa4ce82 #ff80f5e2 #ffa4ce82" />
+		</ColorConfiguration>
+		<ListConfiguration id="z0_index" displayName="index" icon="index_icon_0" defaultValue="0">
+			<ListOption id="0" icon="index_icon_0" displayName="index_0" />
+			<ListOption id="1" icon="index_icon_1" displayName="index_1" />
+			<ListOption id="2" icon="index_icon_2" displayName="index_2" />
+		</ListConfiguration>
+		<ListConfiguration id="z1_aod" displayName="aod_style" icon="aod_icon_0" defaultValue="0">
+			<ListOption id="0" icon="aod_icon_0" displayName="aod_0" />
+			<ListOption id="1" icon="aod_icon_1" displayName="aod_1" />
+			<ListOption id="2" icon="aod_icon_2" displayName="aod_2" />
+			<ListOption id="3" icon="aod_icon_3" displayName="aod_3" />
+		</ListConfiguration>
+		<BooleanConfiguration id="aod_pill" defaultValue="TRUE" displayName="aod_pill" />
+	</UserConfigurations>
+	<Scene backgroundColor="#ff000000">
+		<Group x="65" y="65" width="320" height="320" pivotX="0.5" pivotY="0.5" name="minutes" alpha="255">
+			<Transform target="angle" value="[MINUTE] * 6" />
+			<Group x="0" y="0" width="320" height="320" pivotX="0.5" pivotY="0.5" name="Minute Index_977a" alpha="255">
+				<ListConfiguration id="z0_index">
+					<ListOption id="0">
+						<PartImage x="0" y="0" width="320" height="320" pivotX="0.5" pivotY="0.5" name="Minute Index_977a" tintColor="#ff57595c">
+							<Image resource="index_minutes_0" />
+						</PartImage>
+					</ListOption>
+					<ListOption id="1">
+						<PartImage x="0" y="0" width="320" height="320" pivotX="0.5" pivotY="0.5" name="Minute Index_977a" tintColor="#ff57595c">
+							<Image resource="index_minutes_1" />
+						</PartImage>
+					</ListOption>
+					<ListOption id="2">
+						<PartDraw x="0" y="0" width="320" height="320" pivotX="0.5" pivotY="0.5" name="empty" alpha="0">
+							<Rectangle x="0" y="0" width="320" height="320">
+								<Fill color="#00ffffff" />
+							</Rectangle>
+						</PartDraw>
+					</ListOption>
+				</ListConfiguration>
+			</Group>
+			<PartText x="261" y="145" width="40" height="30" pivotX="0.5" pivotY="0.5" name="00 _e602" alpha="255">
+				<Transform target="angle" value="[MINUTE] * (-6)" />
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ff999999">
+						00
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="245" y="85" width="40" height="30" pivotX="0.5" pivotY="0.5" name="05_9a93" alpha="255">
+				<Transform target="angle" value="[MINUTE] * (-6)" />
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ff999999">
+						05
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="201" y="40" width="40" height="30" pivotX="0.5" pivotY="0.5" name="10_c3fe" alpha="255">
+				<Transform target="angle" value="[MINUTE] * (-6)" />
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ff999999">
+						10
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="140" y="24" width="40" height="30" pivotX="0.5" pivotY="0.5" name="15_c52c" alpha="255">
+				<Transform target="angle" value="[MINUTE] * (-6)" />
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ff999999">
+						15
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="80" y="40" width="40" height="30" pivotX="0.5" pivotY="0.5" name="20_e8c9" alpha="255">
+				<Transform target="angle" value="[MINUTE] * (-6)" />
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ff999999">
+						20
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="35" y="85" width="40" height="30" pivotX="0.5" pivotY="0.5" name="25 _eee1" alpha="255">
+				<Transform target="angle" value="[MINUTE] * (-6)" />
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ff999999">
+						25
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="19" y="145" width="40" height="30" pivotX="0.5" pivotY="0.5" name="30_1c00" alpha="255">
+				<Transform target="angle" value="[MINUTE] * (-6)" />
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ff999999">
+						30
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="35" y="206" width="40" height="30" pivotX="0.5" pivotY="0.5" name="35_580e" alpha="255">
+				<Transform target="angle" value="[MINUTE] * (-6)" />
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ff999999">
+						35
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="80" y="250" width="40" height="30" pivotX="0.5" pivotY="0.5" name="40 _c3dd" alpha="255">
+				<Transform target="angle" value="[MINUTE] * (-6)" />
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ff999999">
+						40
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="140" y="266" width="40" height="30" pivotX="0.5" pivotY="0.5" name="45 _dddb" alpha="255">
+				<Transform target="angle" value="[MINUTE] * (-6)" />
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ff999999">
+						45
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="201" y="250" width="40" height="30" pivotX="0.5" pivotY="0.5" name="50 _e4e2" alpha="255">
+				<Transform target="angle" value="[MINUTE] * (-6)" />
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ff999999">
+						50
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="245" y="206" width="40" height="30" pivotX="0.5" pivotY="0.5" name="55 _43bb" alpha="255">
+				<Transform target="angle" value="[MINUTE] * (-6)" />
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ff999999">
+						55
+					</Font>
+				</Text>
+			</PartText>
+		</Group>
+		<Group x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="aod_group" alpha="255">
+			<Group x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="minute_hider" alpha="0">
+				<Variant mode="AMBIENT" target="alpha" value="255" />
+				<ListConfiguration id="z1_aod">
+					<ListOption id="0">
+						<PartDraw x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="empty" alpha="0">
+							<Rectangle x="0" y="0" width="450" height="450">
+								<Fill color="#00ffffff" />
+							</Rectangle>
+						</PartDraw>
+					</ListOption>
+					<ListOption id="1">
+						<PartDraw x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="empty" alpha="0">
+							<Rectangle x="0" y="0" width="450" height="450">
+								<Fill color="#00ffffff" />
+							</Rectangle>
+						</PartDraw>
+					</ListOption>
+					<ListOption id="2">
+						<PartDraw x="83" y="83" width="284" height="284" pivotX="0.5" pivotY="0.5" name="inside_black" alpha="255">
+							<Ellipse x="0" y="0" width="284" height="284">
+								<Fill color="#ff000000" />
+							</Ellipse>
+						</PartDraw>
+					</ListOption>
+					<ListOption id="3">
+						<PartDraw x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="full_black" alpha="255">
+							<Rectangle x="0" y="0" width="450" height="450">
+								<Fill color="#ff000000" />
+							</Rectangle>
+						</PartDraw>
+					</ListOption>
+				</ListConfiguration>
+			</Group>
+			<Group x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="index_seconds" alpha="0">
+				<Variant mode="AMBIENT" target="alpha" value="255" />
+				<ListConfiguration id="z0_index">
+					<ListOption id="0">
+						<PartImage x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" tintColor="#ff57595c">
+							<Image resource="index_seconds_0" />
+						</PartImage>
+					</ListOption>
+					<ListOption id="1">
+						<PartImage x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" tintColor="#ff57595c">
+							<Image resource="index_seconds_1" />
+						</PartImage>
+					</ListOption>
+					<ListOption id="2">
+						<PartDraw x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="empty" alpha="0">
+							<Rectangle x="0" y="0" width="450" height="450">
+								<Fill color="#00ffffff" />
+							</Rectangle>
+						</PartDraw>
+					</ListOption>
+				</ListConfiguration>
+			</Group>
+			<Group x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="index_hider" alpha="0">
+				<Variant mode="AMBIENT" target="alpha" value="255" />
+				<ListConfiguration id="z1_aod">
+					<ListOption id="0">
+						<PartImage x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="black_border">
+							<Image resource="black_border" />
+						</PartImage>
+					</ListOption>
+					<ListOption id="1">
+						<PartDraw x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="empty" alpha="0">
+							<Rectangle x="0" y="0" width="450" height="450">
+								<Fill color="#00ffffff" />
+							</Rectangle>
+						</PartDraw>
+					</ListOption>
+					<ListOption id="2">
+						<PartDraw x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="empty" alpha="0">
+							<Rectangle x="0" y="0" width="450" height="450">
+								<Fill color="#00ffffff" />
+							</Rectangle>
+						</PartDraw>
+					</ListOption>
+					<ListOption id="3">
+						<PartDraw x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="full_black" alpha="255">
+							<Rectangle x="0" y="0" width="450" height="450">
+								<Fill color="#ff000000" />
+							</Rectangle>
+						</PartDraw>
+					</ListOption>
+				</ListConfiguration>
+			</Group>
+		</Group>
+		<Group x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="seconds" alpha="255">
+			<Variant mode="AMBIENT" target="alpha" value="0" />
+			<Transform target="alpha" value="([SECOND_MILLISECOND]==0.0)? 0: 255" />
+			<Transform target="angle" value="[SECOND] * 6">
+				<Animation duration="1" />
+			</Transform>
+			<Group x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="index" alpha="255">
+				<ListConfiguration id="z0_index">
+					<ListOption id="0">
+						<PartImage x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" tintColor="#ff57595c">
+							<Image resource="index_seconds_0" />
+						</PartImage>
+					</ListOption>
+					<ListOption id="1">
+						<PartImage x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" tintColor="#ff57595c">
+							<Image resource="index_seconds_1" />
+						</PartImage>
+					</ListOption>
+					<ListOption id="2">
+						<PartDraw x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="empty" alpha="0">
+							<Rectangle x="0" y="0" width="450" height="450">
+								<Fill color="#00ffffff" />
+							</Rectangle>
+						</PartDraw>
+					</ListOption>
+				</ListConfiguration>
+			</Group>
+			<PartText x="392" y="210" width="40" height="30" pivotX="0.5" pivotY="0.5" name="00_5731" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+				<Variant mode="AMBIENT" target="alpha" value="0" />
+				<Transform target="angle" value="[SECOND_MILLISECOND] * (-6)" />
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+						00
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="366" y="116" width="40" height="30" pivotX="0.5" pivotY="0.5" name="05_bd14" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+				<Variant mode="AMBIENT" target="alpha" value="0" />
+				<Transform target="angle" value="[SECOND_MILLISECOND] * (-6)" />
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+						05
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="298" y="48" width="40" height="30" pivotX="0.5" pivotY="0.5" name="10_de82" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+				<Variant mode="AMBIENT" target="alpha" value="0" />
+				<Transform target="angle" value="[SECOND_MILLISECOND] * (-6)" />
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+						10
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="205" y="23" width="40" height="30" pivotX="0.5" pivotY="0.5" name="15_50bc" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+				<Variant mode="AMBIENT" target="alpha" value="0" />
+				<Transform target="angle" value="[SECOND_MILLISECOND] * (-6)" />
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+						15
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="112" y="48" width="40" height="30" pivotX="0.5" pivotY="0.5" name="20_a636" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+				<Variant mode="AMBIENT" target="alpha" value="0" />
+				<Transform target="angle" value="[SECOND_MILLISECOND] * (-6)" />
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+						20
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="44" y="116" width="40" height="30" pivotX="0.5" pivotY="0.5" name="25_a137" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+				<Variant mode="AMBIENT" target="alpha" value="0" />
+				<Transform target="angle" value="[SECOND_MILLISECOND] * (-6)" />
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+						25
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="18" y="210" width="40" height="30" pivotX="0.5" pivotY="0.5" name="30_2417" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+				<Variant mode="AMBIENT" target="alpha" value="0" />
+				<Transform target="angle" value="[SECOND_MILLISECOND] * (-6)" />
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+						30
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="44" y="304" width="40" height="30" pivotX="0.5" pivotY="0.5" name="35_4367" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+				<Variant mode="AMBIENT" target="alpha" value="0" />
+				<Transform target="angle" value="[SECOND_MILLISECOND] * (-6)" />
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+						35
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="112" y="372" width="40" height="30" pivotX="0.5" pivotY="0.5" name="40_cd2c" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+				<Variant mode="AMBIENT" target="alpha" value="0" />
+				<Transform target="angle" value="[SECOND_MILLISECOND] * (-6)" />
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+						40
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="205" y="397" width="40" height="30" pivotX="0.5" pivotY="0.5" name="45_3af7" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+				<Variant mode="AMBIENT" target="alpha" value="0" />
+				<Transform target="angle" value="[SECOND_MILLISECOND] * (-6)" />
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+						45
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="298" y="372" width="40" height="30" pivotX="0.5" pivotY="0.5" name="50_366e" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+				<Variant mode="AMBIENT" target="alpha" value="0" />
+				<Transform target="angle" value="[SECOND_MILLISECOND] * (-6)" />
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+						50
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="366" y="304" width="40" height="30" pivotX="0.5" pivotY="0.5" name="55_ee08" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+				<Variant mode="AMBIENT" target="alpha" value="0" />
+				<Transform target="angle" value="[SECOND_MILLISECOND] * (-6)" />
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+						55
+					</Font>
+				</Text>
+			</PartText>
+		</Group>
+		<Group x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="seconds_preview" alpha="255">
+			<Variant mode="AMBIENT" target="alpha" value="0" />
+			<Transform target="alpha" value="([SECOND_MILLISECOND]==0.0)? 255: 0" />
+			<Group x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="index" alpha="255">
+				<ListConfiguration id="z0_index">
+					<ListOption id="0">
+						<PartImage x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" tintColor="#ff57595c">
+							<Image resource="index_seconds_0" />
+						</PartImage>
+					</ListOption>
+					<ListOption id="1">
+						<PartImage x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" tintColor="#ff57595c">
+							<Image resource="index_seconds_1" />
+						</PartImage>
+					</ListOption>
+					<ListOption id="2">
+						<PartDraw x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="empty" alpha="0">
+							<Rectangle x="0" y="0" width="450" height="450">
+								<Fill color="#00ffffff" />
+							</Rectangle>
+						</PartDraw>
+					</ListOption>
+				</ListConfiguration>
+			</Group>
+			<PartText x="392" y="210" width="40" height="30" pivotX="0.5" pivotY="0.5" name="00_5731" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+						00
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="366" y="116" width="40" height="30" pivotX="0.5" pivotY="0.5" name="05_bd14" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+						05
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="298" y="48" width="40" height="30" pivotX="0.5" pivotY="0.5" name="10_de82" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+						10
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="205" y="23" width="40" height="30" pivotX="0.5" pivotY="0.5" name="15_50bc" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+						15
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="112" y="48" width="40" height="30" pivotX="0.5" pivotY="0.5" name="20_a636" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+						20
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="44" y="116" width="40" height="30" pivotX="0.5" pivotY="0.5" name="25_a137" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+						25
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="18" y="210" width="40" height="30" pivotX="0.5" pivotY="0.5" name="30_2417" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+						30
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="44" y="304" width="40" height="30" pivotX="0.5" pivotY="0.5" name="35_4367" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+						35
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="112" y="372" width="40" height="30" pivotX="0.5" pivotY="0.5" name="40_cd2c" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+						40
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="205" y="397" width="40" height="30" pivotX="0.5" pivotY="0.5" name="45_3af7" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+						45
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="298" y="372" width="40" height="30" pivotX="0.5" pivotY="0.5" name="50_366e" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+						50
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="366" y="304" width="40" height="30" pivotX="0.5" pivotY="0.5" name="55_ee08" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+						55
+					</Font>
+				</Text>
+			</PartText>
+		</Group>
+		<Group x="150" y="175" width="300" height="100" pivotX="0.5" pivotY="0.5" name="time" alpha="255">
+			<Group x="0" y="0" width="300" height="100" pivotX="0.5" pivotY="0.5" name="optimizedGroup_8d8a" alpha="255">
+				<Group x="136" y="10" width="164" height="80" pivotX="0.5" pivotY="0.5" name="border" tintColor="[CONFIGURATION.themeColor.1]" alpha="255">
+					<Variant mode="AMBIENT" target="alpha" value="0" />
+					<PartImage x="0" y="0" width="164" height="80" pivotX="0.5" pivotY="0.5">
+						<Image resource="minute_border" />
+					</PartImage>
+				</Group>
+				<Group x="136" y="10" width="164" height="80" pivotX="0.5" pivotY="0.5" name="border_aod" tintColor="[CONFIGURATION.themeColor.1]" alpha="0">
+					<Variant mode="AMBIENT" target="alpha" value="255" />
+					<BooleanConfiguration id="aod_pill">
+						<BooleanOption id="TRUE">
+							<PartImage x="0" y="0" width="164" height="80" pivotX="0.5" pivotY="0.5">
+								<Image resource="minute_border_pill" />
+							</PartImage>
+						</BooleanOption>
+						<BooleanOption id="FALSE">
+							<PartImage x="0" y="0" width="164" height="80" pivotX="0.5" pivotY="0.5">
+								<Image resource="minute_border" />
+							</PartImage>
+						</BooleanOption>
+					</BooleanConfiguration>
+				</Group>
+			</Group>
+			<PartText x="145" y="20" width="80" height="60" pivotX="0.5" pivotY="0.5" name="minute" alpha="255">
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_medium" size="42" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+						<Template>
+							%s
+							<Parameter expression="[MINUTE_Z]" />
+						</Template>
+					</Font>
+				</Text>
+			</PartText>
+			<PartText x="0" y="0" width="150" height="100" pivotX="0.5" pivotY="0.5" name="Hour_3587" alpha="255">
+				<Text align="CENTER" ellipsis="FALSE">
+					<Font family="inter_medium" size="90" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+						<Template>
+							%s
+							<Parameter expression="[IS_24_HOUR_MODE]? [HOUR_0_23_Z]: [HOUR_1_12]" />
+						</Template>
+					</Font>
+				</Text>
+			</PartText>
+		</Group>
+		<ComplicationSlot slotId="0" displayName="complication" isCustomizable="TRUE" supportedTypes="SHORT_TEXT SMALL_IMAGE MONOCHROMATIC_IMAGE " x="0" y="173" width="136" height="104" pivotX="0.5" pivotY="0.5" alpha="255">
+			<DefaultProviderPolicy defaultSystemProvider="EMPTY" defaultSystemProviderType="SHORT_TEXT" />
+			<BoundingBox x="0" y="0" width="136" height="104" />
+			<Complication type="SHORT_TEXT">
+				<Condition>
+					<Expressions>
+						<Expression name="shortTextIcon">
+							<![CDATA[[COMPLICATION.TITLE] == null && [COMPLICATION.MONOCHROMATIC_IMAGE] != null]]>
+						</Expression>
+					</Expressions>
+					<Compare expression="shortTextIcon">
+						<PartImage x="0" y="0" width="136" height="104" pivotX="0.5" pivotY="0.5" name="Border_ee21" tintColor="#ff57595c" alpha="255">
+							<Image resource="complication_border" />
+						</PartImage>
+						<PartText x="6" y="52" width="120" height="40" pivotX="0.5" pivotY="0.5" name="Text_3209" alpha="255">
+							<Text align="CENTER" ellipsis="TRUE">
+								<Font family="inter_medium" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+									<Upper>
+										<Template>
+											%s
+											<Parameter expression="[COMPLICATION.TEXT]" />
+										</Template>
+									</Upper>
+								</Font>
+							</Text>
+						</PartText>
+						<Group x="50" y="16" width="32" height="32" pivotX="0.5" pivotY="0.5" name="Icon_cb25" tintColor="[CONFIGURATION.themeColor.1]" alpha="255">
+							<PartImage x="0" y="0" width="32" height="32" pivotX="0.5" pivotY="0.5" name="Icon_cb25">
+								<ImageFilters>
+									<HsbFilter hueRotate="0" saturate="0" brightness="1" />
+								</ImageFilters>
+								<Image resource="[COMPLICATION.MONOCHROMATIC_IMAGE]" />
+							</PartImage>
+						</Group>
+					</Compare>
+					<Default>
+						<PartImage x="0" y="0" width="136" height="104" pivotX="0.5" pivotY="0.5" name="Border _bfdf" tintColor="#ff57595c" alpha="255">
+							<Image resource="complication_border" />
+						</PartImage>
+						<PartText x="6" y="52" width="120" height="40" pivotX="0.5" pivotY="0.5" name="Text_4b52" alpha="255">
+							<Text align="CENTER" ellipsis="TRUE">
+								<Font family="inter_medium" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+									<Upper>
+										<Template>
+											%s
+											<Parameter expression="[COMPLICATION.TEXT]" />
+										</Template>
+									</Upper>
+								</Font>
+							</Text>
+						</PartText>
+						<PartText x="6" y="12" width="120" height="40" pivotX="0.5" pivotY="0.5" name="Title_b28c" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+							<Text align="CENTER" ellipsis="TRUE">
+								<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+									<Upper>
+										<Template>
+											%s
+											<Parameter expression="[COMPLICATION.TITLE]" />
+										</Template>
+									</Upper>
+								</Font>
+							</Text>
+						</PartText>
+					</Default>
+				</Condition>
+			</Complication>
+			<Complication type="SMALL_IMAGE">
+				<PartImage x="0" y="0" width="136" height="104" pivotX="0.5" pivotY="0.5" name="Border _b5cb" tintColor="#ff57595c" alpha="255">
+					<Image resource="complication_border" />
+				</PartImage>
+				<PartImage x="44" y="12" width="80" height="80" pivotX="0.5" pivotY="0.5" name="Image_9b96" alpha="255">
+					<Image resource="[COMPLICATION.SMALL_IMAGE]" />
+				</PartImage>
+			</Complication>
+			<Complication type="MONOCHROMATIC_IMAGE">
+				<PartImage x="0" y="0" width="136" height="104" pivotX="0.5" pivotY="0.5" name="Border _7093" tintColor="#ff57595c" alpha="255">
+					<Image resource="complication_border" />
+				</PartImage>
+				<Group x="44" y="28" width="48" height="48" pivotX="0.5" pivotY="0.5" name="Icon_0ad9" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+					<PartImage x="0" y="0" width="48" height="48" pivotX="0.5" pivotY="0.5" name="Icon_0ad9">
+						<ImageFilters>
+							<HsbFilter hueRotate="0" saturate="0" brightness="1" />
+						</ImageFilters>
+						<Image resource="[COMPLICATION.MONOCHROMATIC_IMAGE]" />
+					</PartImage>
+				</Group>
+			</Complication>
+			<Complication type="EMPTY" />
+		</ComplicationSlot>
+	</Scene>
+</WatchFace>
