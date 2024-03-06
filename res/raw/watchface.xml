@@ -50,16 +50,21 @@
 	</UserConfigurations>
 	<Scene backgroundColor="#ff000000">
 		<Group x="65" y="65" width="320" height="320" pivotX="0.5" pivotY="0.5" name="minutes" alpha="255">
+			<!-- To increase the smoothness of the seconds the minutes don't animate.
+				 Instead the ring jumps with a new minute. 
+				 Replace [MINUTE] with [MINUTE_SECONDS] of every transform in this group, 
+				 to have the minutes smoothly rotate as well.
+		    -->
 			<Transform target="angle" value="[MINUTE] * 6" />
-			<Group x="0" y="0" width="320" height="320" pivotX="0.5" pivotY="0.5" name="Minute Index_977a" alpha="255">
+			<Group x="0" y="0" width="320" height="320" pivotX="0.5" pivotY="0.5" name="index" alpha="255">
 				<ListConfiguration id="z0_index">
 					<ListOption id="0">
-						<PartImage x="0" y="0" width="320" height="320" pivotX="0.5" pivotY="0.5" name="Minute Index_977a" tintColor="#ff57595c">
+						<PartImage x="0" y="0" width="320" height="320" pivotX="0.5" pivotY="0.5" name="index" tintColor="#ff57595c">
 							<Image resource="index_minutes_0" />
 						</PartImage>
 					</ListOption>
 					<ListOption id="1">
-						<PartImage x="0" y="0" width="320" height="320" pivotX="0.5" pivotY="0.5" name="Minute Index_977a" tintColor="#ff57595c">
+						<PartImage x="0" y="0" width="320" height="320" pivotX="0.5" pivotY="0.5" name="index" tintColor="#ff57595c">
 							<Image resource="index_minutes_1" />
 						</PartImage>
 					</ListOption>
@@ -72,7 +77,7 @@
 					</ListOption>
 				</ListConfiguration>
 			</Group>
-			<PartText x="261" y="145" width="40" height="30" pivotX="0.5" pivotY="0.5" name="00 _e602" alpha="255">
+			<PartText x="261" y="145" width="40" height="30" pivotX="0.5" pivotY="0.5" name="00" alpha="255">
 				<Transform target="angle" value="[MINUTE] * (-6)" />
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ff999999">
@@ -80,7 +85,7 @@
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="245" y="85" width="40" height="30" pivotX="0.5" pivotY="0.5" name="05_9a93" alpha="255">
+			<PartText x="245" y="85" width="40" height="30" pivotX="0.5" pivotY="0.5" name="05" alpha="255">
 				<Transform target="angle" value="[MINUTE] * (-6)" />
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ff999999">
@@ -88,7 +93,7 @@
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="201" y="40" width="40" height="30" pivotX="0.5" pivotY="0.5" name="10_c3fe" alpha="255">
+			<PartText x="201" y="40" width="40" height="30" pivotX="0.5" pivotY="0.5" name="10" alpha="255">
 				<Transform target="angle" value="[MINUTE] * (-6)" />
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ff999999">
@@ -96,7 +101,7 @@
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="140" y="24" width="40" height="30" pivotX="0.5" pivotY="0.5" name="15_c52c" alpha="255">
+			<PartText x="140" y="24" width="40" height="30" pivotX="0.5" pivotY="0.5" name="15" alpha="255">
 				<Transform target="angle" value="[MINUTE] * (-6)" />
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ff999999">
@@ -104,7 +109,7 @@
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="80" y="40" width="40" height="30" pivotX="0.5" pivotY="0.5" name="20_e8c9" alpha="255">
+			<PartText x="80" y="40" width="40" height="30" pivotX="0.5" pivotY="0.5" name="20" alpha="255">
 				<Transform target="angle" value="[MINUTE] * (-6)" />
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ff999999">
@@ -112,7 +117,7 @@
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="35" y="85" width="40" height="30" pivotX="0.5" pivotY="0.5" name="25 _eee1" alpha="255">
+			<PartText x="35" y="85" width="40" height="30" pivotX="0.5" pivotY="0.5" name="25" alpha="255">
 				<Transform target="angle" value="[MINUTE] * (-6)" />
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ff999999">
@@ -120,7 +125,7 @@
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="19" y="145" width="40" height="30" pivotX="0.5" pivotY="0.5" name="30_1c00" alpha="255">
+			<PartText x="19" y="145" width="40" height="30" pivotX="0.5" pivotY="0.5" name="30" alpha="255">
 				<Transform target="angle" value="[MINUTE] * (-6)" />
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ff999999">
@@ -128,7 +133,7 @@
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="35" y="206" width="40" height="30" pivotX="0.5" pivotY="0.5" name="35_580e" alpha="255">
+			<PartText x="35" y="206" width="40" height="30" pivotX="0.5" pivotY="0.5" name="35" alpha="255">
 				<Transform target="angle" value="[MINUTE] * (-6)" />
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ff999999">
@@ -136,7 +141,7 @@
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="80" y="250" width="40" height="30" pivotX="0.5" pivotY="0.5" name="40 _c3dd" alpha="255">
+			<PartText x="80" y="250" width="40" height="30" pivotX="0.5" pivotY="0.5" name="40" alpha="255">
 				<Transform target="angle" value="[MINUTE] * (-6)" />
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ff999999">
@@ -144,7 +149,7 @@
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="140" y="266" width="40" height="30" pivotX="0.5" pivotY="0.5" name="45 _dddb" alpha="255">
+			<PartText x="140" y="266" width="40" height="30" pivotX="0.5" pivotY="0.5" name="45" alpha="255">
 				<Transform target="angle" value="[MINUTE] * (-6)" />
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ff999999">
@@ -152,7 +157,7 @@
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="201" y="250" width="40" height="30" pivotX="0.5" pivotY="0.5" name="50 _e4e2" alpha="255">
+			<PartText x="201" y="250" width="40" height="30" pivotX="0.5" pivotY="0.5" name="50" alpha="255">
 				<Transform target="angle" value="[MINUTE] * (-6)" />
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ff999999">
@@ -160,7 +165,7 @@
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="245" y="206" width="40" height="30" pivotX="0.5" pivotY="0.5" name="55 _43bb" alpha="255">
+			<PartText x="245" y="206" width="40" height="30" pivotX="0.5" pivotY="0.5" name="55" alpha="255">
 				<Transform target="angle" value="[MINUTE] * (-6)" />
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ff999999">
@@ -170,9 +175,17 @@
 			</PartText>
 		</Group>
 		<Group x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="aod_group" alpha="255">
+		    <!-- "aod_group" has the necessary overlays and assets for the four AOD styles:
+				 1. Default AOD: The default aod only shows the minute ring. It's kept simple to prevent burn-ins
+				 2. Ring & Index: This shows the minute ring as well as both indexes
+				 3. Index: This only shows both indexes, the minute ring isn't visible
+				 4. Only time: No index or ring is visible
+			 -->
 			<Group x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="minute_hider" alpha="0">
+			    <!-- The overlay to show/hide the minutes -->
 				<Variant mode="AMBIENT" target="alpha" value="255" />
 				<ListConfiguration id="z1_aod">
+				    <!-- Minute ring and index is visible -->
 					<ListOption id="0">
 						<PartDraw x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="empty" alpha="0">
 							<Rectangle x="0" y="0" width="450" height="450">
@@ -180,6 +193,7 @@
 							</Rectangle>
 						</PartDraw>
 					</ListOption>
+					<!-- Minute ring and index is visible -->
 					<ListOption id="1">
 						<PartDraw x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="empty" alpha="0">
 							<Rectangle x="0" y="0" width="450" height="450">
@@ -187,6 +201,7 @@
 							</Rectangle>
 						</PartDraw>
 					</ListOption>
+					<!-- Minute ring disappears. Index is visible -->
 					<ListOption id="2">
 						<PartDraw x="83" y="83" width="284" height="284" pivotX="0.5" pivotY="0.5" name="inside_black" alpha="255">
 							<Ellipse x="0" y="0" width="284" height="284">
@@ -194,6 +209,7 @@
 							</Ellipse>
 						</PartDraw>
 					</ListOption>
+					<!-- Both index and ring aren't visible -->
 					<ListOption id="3">
 						<PartDraw x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="full_black" alpha="255">
 							<Rectangle x="0" y="0" width="450" height="450">
@@ -203,6 +219,9 @@
 					</ListOption>
 				</ListConfiguration>
 			</Group>
+			<!-- The seconds-index is static in the AOD state. The group "seconds" isn't visible on the AOD... 
+			 	 Therefor we need this group to show the seconds-index, with its styles, on the AOD
+			-->
 			<Group x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="index_seconds" alpha="0">
 				<Variant mode="AMBIENT" target="alpha" value="255" />
 				<ListConfiguration id="z0_index">
@@ -225,14 +244,17 @@
 					</ListOption>
 				</ListConfiguration>
 			</Group>
+			<!-- Hide the seconds-index according to the selected AOD style -->
 			<Group x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="index_hider" alpha="0">
 				<Variant mode="AMBIENT" target="alpha" value="255" />
 				<ListConfiguration id="z1_aod">
+					<!--  Seconds-index isn't visible -->
 					<ListOption id="0">
 						<PartImage x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="black_border">
 							<Image resource="black_border" />
 						</PartImage>
 					</ListOption>
+					<!-- Seconds-index is visible -->
 					<ListOption id="1">
 						<PartDraw x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="empty" alpha="0">
 							<Rectangle x="0" y="0" width="450" height="450">
@@ -240,6 +262,7 @@
 							</Rectangle>
 						</PartDraw>
 					</ListOption>
+					<!-- Seconds-index is visible -->
 					<ListOption id="2">
 						<PartDraw x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="empty" alpha="0">
 							<Rectangle x="0" y="0" width="450" height="450">
@@ -247,6 +270,7 @@
 							</Rectangle>
 						</PartDraw>
 					</ListOption>
+					<!-- A complete overlay over both indexes and the minute ring, for "time only" AOD -->
 					<ListOption id="3">
 						<PartDraw x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="full_black" alpha="255">
 							<Rectangle x="0" y="0" width="450" height="450">
@@ -258,8 +282,16 @@
 			</Group>
 		</Group>
 		<Group x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="seconds" alpha="255">
+			<!-- Remove the seconds on the AOD -->
 			<Variant mode="AMBIENT" target="alpha" value="0" />
+			<!-- Due to a "bug" in the (tested on the Google Pixel Watch 2), 
+			     which randomly rotates the seconds in the watch face editor, 
+				 the seconds get transparent when SECOND_MILLISECOND is 0.
+				 Since the preview time is set to 12:45:00 "seconods_preview" will show up in the editor,
+				 eliminating the random movement of the seconds.
+		     -->
 			<Transform target="alpha" value="([SECOND_MILLISECOND]==0.0)? 0: 255" />
+			<!-- Rotate the entire group of numbers -->
 			<Transform target="angle" value="[SECOND] * 6">
 				<Animation duration="1" />
 			</Transform>
@@ -284,8 +316,11 @@
 					</ListOption>
 				</ListConfiguration>
 			</Group>
-			<PartText x="392" y="210" width="40" height="30" pivotX="0.5" pivotY="0.5" name="00_5731" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
-				<Variant mode="AMBIENT" target="alpha" value="0" />
+			<!-- Below are all seconds from 00 to 55.
+			     Each counter the rotation of the group with:
+				 <Transform target="angle" value="[SECOND_MILLISECOND] * (-6)" />
+			 -->
+			<PartText x="392" y="210" width="40" height="30" pivotX="0.5" pivotY="0.5" name="00" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
 				<Transform target="angle" value="[SECOND_MILLISECOND] * (-6)" />
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
@@ -293,8 +328,7 @@
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="366" y="116" width="40" height="30" pivotX="0.5" pivotY="0.5" name="05_bd14" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
-				<Variant mode="AMBIENT" target="alpha" value="0" />
+			<PartText x="366" y="116" width="40" height="30" pivotX="0.5" pivotY="0.5" name="05" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
 				<Transform target="angle" value="[SECOND_MILLISECOND] * (-6)" />
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
@@ -302,8 +336,7 @@
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="298" y="48" width="40" height="30" pivotX="0.5" pivotY="0.5" name="10_de82" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
-				<Variant mode="AMBIENT" target="alpha" value="0" />
+			<PartText x="298" y="48" width="40" height="30" pivotX="0.5" pivotY="0.5" name="10" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
 				<Transform target="angle" value="[SECOND_MILLISECOND] * (-6)" />
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
@@ -311,8 +344,7 @@
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="205" y="23" width="40" height="30" pivotX="0.5" pivotY="0.5" name="15_50bc" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
-				<Variant mode="AMBIENT" target="alpha" value="0" />
+			<PartText x="205" y="23" width="40" height="30" pivotX="0.5" pivotY="0.5" name="15" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
 				<Transform target="angle" value="[SECOND_MILLISECOND] * (-6)" />
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
@@ -320,8 +352,7 @@
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="112" y="48" width="40" height="30" pivotX="0.5" pivotY="0.5" name="20_a636" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
-				<Variant mode="AMBIENT" target="alpha" value="0" />
+			<PartText x="112" y="48" width="40" height="30" pivotX="0.5" pivotY="0.5" name="20" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
 				<Transform target="angle" value="[SECOND_MILLISECOND] * (-6)" />
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
@@ -329,8 +360,7 @@
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="44" y="116" width="40" height="30" pivotX="0.5" pivotY="0.5" name="25_a137" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
-				<Variant mode="AMBIENT" target="alpha" value="0" />
+			<PartText x="44" y="116" width="40" height="30" pivotX="0.5" pivotY="0.5" name="25" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
 				<Transform target="angle" value="[SECOND_MILLISECOND] * (-6)" />
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
@@ -338,8 +368,7 @@
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="18" y="210" width="40" height="30" pivotX="0.5" pivotY="0.5" name="30_2417" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
-				<Variant mode="AMBIENT" target="alpha" value="0" />
+			<PartText x="18" y="210" width="40" height="30" pivotX="0.5" pivotY="0.5" name="30" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
 				<Transform target="angle" value="[SECOND_MILLISECOND] * (-6)" />
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
@@ -347,8 +376,7 @@
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="44" y="304" width="40" height="30" pivotX="0.5" pivotY="0.5" name="35_4367" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
-				<Variant mode="AMBIENT" target="alpha" value="0" />
+			<PartText x="44" y="304" width="40" height="30" pivotX="0.5" pivotY="0.5" name="35" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
 				<Transform target="angle" value="[SECOND_MILLISECOND] * (-6)" />
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
@@ -356,8 +384,7 @@
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="112" y="372" width="40" height="30" pivotX="0.5" pivotY="0.5" name="40_cd2c" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
-				<Variant mode="AMBIENT" target="alpha" value="0" />
+			<PartText x="112" y="372" width="40" height="30" pivotX="0.5" pivotY="0.5" name="40" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
 				<Transform target="angle" value="[SECOND_MILLISECOND] * (-6)" />
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
@@ -365,8 +392,7 @@
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="205" y="397" width="40" height="30" pivotX="0.5" pivotY="0.5" name="45_3af7" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
-				<Variant mode="AMBIENT" target="alpha" value="0" />
+			<PartText x="205" y="397" width="40" height="30" pivotX="0.5" pivotY="0.5" name="45" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
 				<Transform target="angle" value="[SECOND_MILLISECOND] * (-6)" />
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
@@ -374,8 +400,7 @@
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="298" y="372" width="40" height="30" pivotX="0.5" pivotY="0.5" name="50_366e" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
-				<Variant mode="AMBIENT" target="alpha" value="0" />
+			<PartText x="298" y="372" width="40" height="30" pivotX="0.5" pivotY="0.5" name="50" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
 				<Transform target="angle" value="[SECOND_MILLISECOND] * (-6)" />
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
@@ -383,8 +408,7 @@
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="366" y="304" width="40" height="30" pivotX="0.5" pivotY="0.5" name="55_ee08" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
-				<Variant mode="AMBIENT" target="alpha" value="0" />
+			<PartText x="366" y="304" width="40" height="30" pivotX="0.5" pivotY="0.5" name="55" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
 				<Transform target="angle" value="[SECOND_MILLISECOND] * (-6)" />
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
@@ -394,6 +418,11 @@
 			</PartText>
 		</Group>
 		<Group x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="seconds_preview" alpha="255">
+			<!-- As explained in "seconds", there is a bug in the watch face editor,
+			 	 which makes the seconds randomly rotate when customizing the watch face.
+				 Therefor "seconds_preview" is visible at SECOND_MILLISECOND = 0.
+				 The code of "seconds_preview" is exactly the same as "seconds", just without the rotation/animation.
+			-->
 			<Variant mode="AMBIENT" target="alpha" value="0" />
 			<Transform target="alpha" value="([SECOND_MILLISECOND]==0.0)? 255: 0" />
 			<Group x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="index" alpha="255">
@@ -417,84 +446,84 @@
 					</ListOption>
 				</ListConfiguration>
 			</Group>
-			<PartText x="392" y="210" width="40" height="30" pivotX="0.5" pivotY="0.5" name="00_5731" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+			<PartText x="392" y="210" width="40" height="30" pivotX="0.5" pivotY="0.5" name="00" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 						00
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="366" y="116" width="40" height="30" pivotX="0.5" pivotY="0.5" name="05_bd14" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+			<PartText x="366" y="116" width="40" height="30" pivotX="0.5" pivotY="0.5" name="05" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 						05
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="298" y="48" width="40" height="30" pivotX="0.5" pivotY="0.5" name="10_de82" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+			<PartText x="298" y="48" width="40" height="30" pivotX="0.5" pivotY="0.5" name="10" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 						10
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="205" y="23" width="40" height="30" pivotX="0.5" pivotY="0.5" name="15_50bc" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+			<PartText x="205" y="23" width="40" height="30" pivotX="0.5" pivotY="0.5" name="15" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 						15
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="112" y="48" width="40" height="30" pivotX="0.5" pivotY="0.5" name="20_a636" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+			<PartText x="112" y="48" width="40" height="30" pivotX="0.5" pivotY="0.5" name="20" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 						20
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="44" y="116" width="40" height="30" pivotX="0.5" pivotY="0.5" name="25_a137" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+			<PartText x="44" y="116" width="40" height="30" pivotX="0.5" pivotY="0.5" name="25" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 						25
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="18" y="210" width="40" height="30" pivotX="0.5" pivotY="0.5" name="30_2417" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+			<PartText x="18" y="210" width="40" height="30" pivotX="0.5" pivotY="0.5" name="30" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 						30
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="44" y="304" width="40" height="30" pivotX="0.5" pivotY="0.5" name="35_4367" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+			<PartText x="44" y="304" width="40" height="30" pivotX="0.5" pivotY="0.5" name="35" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 						35
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="112" y="372" width="40" height="30" pivotX="0.5" pivotY="0.5" name="40_cd2c" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+			<PartText x="112" y="372" width="40" height="30" pivotX="0.5" pivotY="0.5" name="40" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 						40
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="205" y="397" width="40" height="30" pivotX="0.5" pivotY="0.5" name="45_3af7" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+			<PartText x="205" y="397" width="40" height="30" pivotX="0.5" pivotY="0.5" name="45" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 						45
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="298" y="372" width="40" height="30" pivotX="0.5" pivotY="0.5" name="50_366e" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+			<PartText x="298" y="372" width="40" height="30" pivotX="0.5" pivotY="0.5" name="50" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 						50
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="366" y="304" width="40" height="30" pivotX="0.5" pivotY="0.5" name="55_ee08" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+			<PartText x="366" y="304" width="40" height="30" pivotX="0.5" pivotY="0.5" name="55" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_regular" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 						55
@@ -503,13 +532,17 @@
 			</PartText>
 		</Group>
 		<Group x="150" y="175" width="300" height="100" pivotX="0.5" pivotY="0.5" name="time" alpha="255">
-			<Group x="0" y="0" width="300" height="100" pivotX="0.5" pivotY="0.5" name="optimizedGroup_8d8a" alpha="255">
+			<Group x="0" y="0" width="300" height="100" pivotX="0.5" pivotY="0.5" name="minute_border" alpha="255">
+				<!-- The border around the digital minute in the active state  -->
 				<Group x="136" y="10" width="164" height="80" pivotX="0.5" pivotY="0.5" name="border" tintColor="[CONFIGURATION.themeColor.1]" alpha="255">
 					<Variant mode="AMBIENT" target="alpha" value="0" />
 					<PartImage x="0" y="0" width="164" height="80" pivotX="0.5" pivotY="0.5">
 						<Image resource="minute_border" />
 					</PartImage>
 				</Group>
+				<!-- The border around the digital minute in the AOD state.
+					 The user has to option to set it as a pill.
+				 -->
 				<Group x="136" y="10" width="164" height="80" pivotX="0.5" pivotY="0.5" name="border_aod" tintColor="[CONFIGURATION.themeColor.1]" alpha="0">
 					<Variant mode="AMBIENT" target="alpha" value="255" />
 					<BooleanConfiguration id="aod_pill">
@@ -536,7 +569,7 @@
 					</Font>
 				</Text>
 			</PartText>
-			<PartText x="0" y="0" width="150" height="100" pivotX="0.5" pivotY="0.5" name="Hour_3587" alpha="255">
+			<PartText x="0" y="0" width="150" height="100" pivotX="0.5" pivotY="0.5" name="hour" alpha="255">
 				<Text align="CENTER" ellipsis="FALSE">
 					<Font family="inter_medium" size="90" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 						<Template>
@@ -558,10 +591,10 @@
 						</Expression>
 					</Expressions>
 					<Compare expression="shortTextIcon">
-						<PartImage x="0" y="0" width="136" height="104" pivotX="0.5" pivotY="0.5" name="Border_ee21" tintColor="#ff57595c" alpha="255">
+						<PartImage x="0" y="0" width="136" height="104" pivotX="0.5" pivotY="0.5" name="border" tintColor="#ff57595c" alpha="255">
 							<Image resource="complication_border" />
 						</PartImage>
-						<PartText x="6" y="52" width="120" height="40" pivotX="0.5" pivotY="0.5" name="Text_3209" alpha="255">
+						<PartText x="6" y="52" width="120" height="40" pivotX="0.5" pivotY="0.5" name="text" alpha="255">
 							<Text align="CENTER" ellipsis="TRUE">
 								<Font family="inter_medium" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 									<Upper>
@@ -573,8 +606,8 @@
 								</Font>
 							</Text>
 						</PartText>
-						<Group x="50" y="16" width="32" height="32" pivotX="0.5" pivotY="0.5" name="Icon_cb25" tintColor="[CONFIGURATION.themeColor.1]" alpha="255">
-							<PartImage x="0" y="0" width="32" height="32" pivotX="0.5" pivotY="0.5" name="Icon_cb25">
+						<Group x="50" y="16" width="32" height="32" pivotX="0.5" pivotY="0.5" name="icon" tintColor="[CONFIGURATION.themeColor.1]" alpha="255">
+							<PartImage x="0" y="0" width="32" height="32" pivotX="0.5" pivotY="0.5" name="icon">
 								<ImageFilters>
 									<HsbFilter hueRotate="0" saturate="0" brightness="1" />
 								</ImageFilters>
@@ -583,10 +616,10 @@
 						</Group>
 					</Compare>
 					<Default>
-						<PartImage x="0" y="0" width="136" height="104" pivotX="0.5" pivotY="0.5" name="Border _bfdf" tintColor="#ff57595c" alpha="255">
+						<PartImage x="0" y="0" width="136" height="104" pivotX="0.5" pivotY="0.5" name="border" tintColor="#ff57595c" alpha="255">
 							<Image resource="complication_border" />
 						</PartImage>
-						<PartText x="6" y="52" width="120" height="40" pivotX="0.5" pivotY="0.5" name="Text_4b52" alpha="255">
+						<PartText x="6" y="52" width="120" height="40" pivotX="0.5" pivotY="0.5" name="text" alpha="255">
 							<Text align="CENTER" ellipsis="TRUE">
 								<Font family="inter_medium" size="28" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 									<Upper>
@@ -598,7 +631,7 @@
 								</Font>
 							</Text>
 						</PartText>
-						<PartText x="6" y="12" width="120" height="40" pivotX="0.5" pivotY="0.5" name="Title_b28c" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+						<PartText x="6" y="12" width="120" height="40" pivotX="0.5" pivotY="0.5" name="title" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
 							<Text align="CENTER" ellipsis="TRUE">
 								<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 									<Upper>
@@ -614,19 +647,19 @@
 				</Condition>
 			</Complication>
 			<Complication type="SMALL_IMAGE">
-				<PartImage x="0" y="0" width="136" height="104" pivotX="0.5" pivotY="0.5" name="Border _b5cb" tintColor="#ff57595c" alpha="255">
+				<PartImage x="0" y="0" width="136" height="104" pivotX="0.5" pivotY="0.5" name="border" tintColor="#ff57595c" alpha="255">
 					<Image resource="complication_border" />
 				</PartImage>
-				<PartImage x="44" y="12" width="80" height="80" pivotX="0.5" pivotY="0.5" name="Image_9b96" alpha="255">
+				<PartImage x="44" y="12" width="80" height="80" pivotX="0.5" pivotY="0.5" name="image" alpha="255">
 					<Image resource="[COMPLICATION.SMALL_IMAGE]" />
 				</PartImage>
 			</Complication>
 			<Complication type="MONOCHROMATIC_IMAGE">
-				<PartImage x="0" y="0" width="136" height="104" pivotX="0.5" pivotY="0.5" name="Border _7093" tintColor="#ff57595c" alpha="255">
+				<PartImage x="0" y="0" width="136" height="104" pivotX="0.5" pivotY="0.5" name="border" tintColor="#ff57595c" alpha="255">
 					<Image resource="complication_border" />
 				</PartImage>
-				<Group x="44" y="28" width="48" height="48" pivotX="0.5" pivotY="0.5" name="Icon_0ad9" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
-					<PartImage x="0" y="0" width="48" height="48" pivotX="0.5" pivotY="0.5" name="Icon_0ad9">
+				<Group x="44" y="28" width="48" height="48" pivotX="0.5" pivotY="0.5" name="icon" tintColor="[CONFIGURATION.themeColor.0]" alpha="255">
+					<PartImage x="0" y="0" width="48" height="48" pivotX="0.5" pivotY="0.5" name="icon">
 						<ImageFilters>
 							<HsbFilter hueRotate="0" saturate="0" brightness="1" />
 						</ImageFilters>
