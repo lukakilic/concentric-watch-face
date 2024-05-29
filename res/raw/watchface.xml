@@ -293,7 +293,7 @@
 			<Transform target="alpha" value="([SECOND_MILLISECOND]==0.0)? 0: 255" />
 			<!-- Rotate the entire group of numbers -->
 			<Transform target="angle" value="[SECOND] * 6">
-				<Animation duration="1" />
+				<Animation duration="1" angleDirection="CLOCKWISE" />
 			</Transform>
 			<Group x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5" name="index" alpha="255">
 				<ListConfiguration id="z0_index">
