@@ -3,8 +3,14 @@
 	<string name="watch_face_name">
 		Concentric
 	</string>
-	<string name="color">
-		Color
+	<string name="secondsColor">
+		Seconds Color
+	</string>
+	<string name="complicationColor">
+		Complication Color
+	</string>
+	<string name="accentColor">
+		Accent Color
 	</string>
 	<string name="index">
 		Index
@@ -39,17 +45,38 @@
 	<string name="smoother">
 		Smoother
 	</string>
-	<string name="aod_complication">
+	<string name="mode">
+		Mode
+	</string>
+	<string name="mode_0">
+		Default Mode
+	</string>
+	<string name="mode_1">
+		Small Seconds
+	</string>
+	<string name="mode_2">
+		Index Only
+	</string>
+	<string name="aod_compl">
 		AOD Complication
 	</string>
-	<string name="cloud">
-		Cloud
+	<string name="placeholder_bar">
+		Placeholder Bars
+	</string>
+	<string name="complication">
+		Complication
 	</string>
 	<string name="snow">
 		Snow
 	</string>
+	<string name="cloud">
+		Cloud
+	</string>
 	<string name="watermelon">
 		Watermelon
+	</string>
+	<string name="tangerine_red">
+		Tangerine Red
 	</string>
 	<string name="pumpkin">
 		Pumpkin
@@ -57,35 +84,80 @@
 	<string name="coral">
 		Coral
 	</string>
+	<string name="mango">
+		Mango
+	</string>
 	<string name="gold">
 		Gold
+	</string>
+	<string name="tangerine">
+		Tangerine
+	</string>
+	<string name="peach">
+		Peach
 	</string>
 	<string name="sunshine">
 		Sunshine
 	</string>
-	<string name="lime">
-		Lime
+	<string name="minty_yellow">
+		Minty Yellow
 	</string>
-	<string name="forest">
-		Forest
+	<string name="mango_yellow">
+		Mango Yellow
 	</string>
 	<string name="mint">
 		Mint
 	</string>
-	<string name="pepper_mint">
-		Pepper Mint
+	<string name="peppermint">
+		Peppermint
 	</string>
-	<string name="turquoise">
-		Turquoise
+	<string name="spring_green">
+		Spring Green
 	</string>
-	<string name="baby_blue">
-		Baby Blue
+	<string name="forest">
+		Forest
+	</string>
+	<string name="emerald">
+		Emerald
+	</string>
+	<string name="lime">
+		Lime
 	</string>
 	<string name="sky">
 		Sky
 	</string>
+	<string name="turquoise">
+		Turquoise
+	</string>
+	<string name="teal">
+		Teal
+	</string>
 	<string name="ocean">
 		Ocean
+	</string>
+	<string name="celeste">
+		Celeste
+	</string>
+	<string name="azure">
+		Azure
+	</string>
+	<string name="aquamarine">
+		Aquamarine
+	</string>
+	<string name="periwinkle">
+		Periwinkle
+	</string>
+	<string name="frost">
+		Frost
+	</string>
+	<string name="baby_blue">
+		Baby Blue
+	</string>
+	<string name="aqua_light">
+		Aqua Light
+	</string>
+	<string name="royal">
+		Royal
 	</string>
 	<string name="lavender">
 		Lavender
@@ -93,50 +165,25 @@
 	<string name="amethyst">
 		Amethyst
 	</string>
-	<string name="royal">
-		Royal
-	</string>
 	<string name="floral">
 		Floral
 	</string>
-	<string name="flamingo">
-		Flamingo
-	</string>
-	<string name="cotton_candy">
-		Cotton Candy
-	</string>
-	<string name="pink_lemonade">
-		Pink Lemonade
-	</string>
-	<string name="minty_yellow">
-		Minty Yellow
-	</string>
-	<string name="aqua">
-		Aqua
-	</string>
-	<string name="blue_lavender">
-		Blue Lavender
-	</string>
-	<string name="emerald">
-		Emerald
-	</string>
-	<string name="tangerine">
-		Tangerine
-	</string>
-	<string name="mango">
-		Mango
+	<string name="lilac">
+		Lilac
 	</string>
 	<string name="apricot">
 		Apricot
 	</string>
-	<string name="aquamarine">
-		Aquamarine
+	<string name="cotton_candy">
+		Cotton Candy
 	</string>
-	<string name="complication">
-		Complication
+	<string name="flamingo">
+		Flamingo
+	</string>
+	<string name="blush">
+		Blush
+	</string>
+	<string name="rose">
+		Rose
 	</string>
 </resources>
-
-
-
-				
