@@ -13,6 +13,6 @@ The XML code can be found in the `res/raw` folder. Watch Face Format is well [do
 
 ## Build the Watch Face
 
-> Google has transitioned to Gradle for compiling watch faces, but I still use the original build script provided when WFF first launched. For reference on building a watch face, see [wear-os-samples/WatchFaceFormat](https://github.com/android/wear-os-samples/tree/main/WatchFaceFormat).
+Google has transitioned to Gradle for compiling watch faces, but I still use the original build script provided when WFF first launched. For reference on building a watch face, see [wear-os-samples/WatchFaceFormat](https://github.com/android/wear-os-samples/tree/main/WatchFaceFormat).
 
-To streamline the process, I’ve developed a small CLI tool that integrates this script, removing the need for Gradle. Once it's ready, I plan to publish it on GitHub.
+> To streamline the process, I’ve developed a small CLI tool that integrates this script, removing the need for Gradle. Once it's ready, I plan to publish it on GitHub.
