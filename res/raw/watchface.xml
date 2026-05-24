@@ -873,7 +873,7 @@
 					<Font family="inter_medium" size="90" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 						<Template>
 							%s
-							<Parameter expression="[IS_24_HOUR_MODE]? [HOUR_0_23_Z]: [HOUR_1_12]" />
+							<Parameter expression="[IS_24_HOUR_MODE]? [HOUR_0_23_Z]: [HOUR_1_12_Z]" />
 						</Template>
 					</Font>
 				</Text>
