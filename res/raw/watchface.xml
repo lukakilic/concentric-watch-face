@@ -942,7 +942,7 @@
 							<PartText x="0" y="0" width="225" height="225" renderMode="MASK" alpha="255">
 								<TextCircular align="START" ellipsis="FALSE" width="350" height="350" startAngle="279" endAngle="351" centerX="225" centerY="225" direction="CLOCKWISE">
 									<Font family="SYNC_TO_DEVICE" size="24" color="#ffffff">
-										<InlineImage resource="empty" source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
+										<InlineImage resource="index_icon_2"  source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
 										<Template>
 											%s
 											<Parameter expression="&#160;" />
@@ -989,7 +989,7 @@
 												%s
 												<Parameter expression="&#160;" />
 											</Template>
-											<InlineImage resource="empty" source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
+											<InlineImage resource="index_icon_2"  source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
 											<Upper>
 												<Template>
 													%s%s%s
@@ -1012,7 +1012,7 @@
 								<PartText x="0" y="0" width="225" height="225" renderMode="MASK" alpha="255">
 									<TextCircular align="CENTER" ellipsis="FALSE" width="350" height="350" startAngle="278" endAngle="351" centerX="225" centerY="225" direction="CLOCKWISE">
 										<Font family="roboto_sb" size="24" color="#ffffff">
-											<InlineImage resource="empty" source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
+											<InlineImage resource="index_icon_2"  source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
 											<Upper>
 												<Template>
 													%s%s
@@ -1092,7 +1092,7 @@
 												%s
 												<Parameter expression="&#160;" />
 											</Template>
-											<InlineImage resource="empty" source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
+											<InlineImage resource="index_icon_2"  source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
 											<Upper>
 												<Template>
 													%s%s %s%s
@@ -1116,7 +1116,7 @@
 								<PartText x="0" y="0" width="225" height="225" renderMode="MASK" alpha="255">
 									<TextCircular align="CENTER" ellipsis="FALSE" width="350" height="350" startAngle="278" endAngle="351" centerX="225" centerY="225" direction="CLOCKWISE">
 										<Font family="roboto_sb" size="24" color="#ffffff">
-											<InlineImage resource="empty" source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
+											<InlineImage resource="index_icon_2"  source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
 											<Upper>
 												<Template>
 													%s%s %s
@@ -1143,7 +1143,7 @@
 					<PartText x="0" y="0" width="225" height="225" renderMode="MASK" alpha="255">
 						<TextCircular align="CENTER" ellipsis="FALSE" width="350" height="350" startAngle="279" endAngle="351" centerX="225" centerY="225" direction="CLOCKWISE">
 							<Font family="roboto_sb" size="30" color="#ffffff">
-								<InlineImage resource="empty" source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
+								<InlineImage resource="index_icon_2"  source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
 							</Font>
 						</TextCircular>
 					</PartText>
@@ -1231,7 +1231,7 @@
 							<PartText x="0" y="0" width="225" height="225" renderMode="MASK" alpha="255">
 								<TextCircular align="START" ellipsis="FALSE" width="350" height="350" startAngle="9" endAngle="72" centerX="0" centerY="225" direction="CLOCKWISE">
 									<Font family="SYNC_TO_DEVICE" size="24" color="#ffffff">
-										<InlineImage resource="empty" source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
+										<InlineImage resource="index_icon_2"  source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
 										<Template>
 											%s
 											<Parameter expression="&#160;" />
@@ -1278,7 +1278,7 @@
 												%s
 												<Parameter expression="&#160;" />
 											</Template>
-											<InlineImage resource="empty" source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
+											<InlineImage resource="index_icon_2"  source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
 											<Upper>
 												<Template>
 													%s%s%s
@@ -1301,7 +1301,7 @@
 								<PartText x="0" y="0" width="225" height="225" renderMode="MASK" alpha="255">
 									<TextCircular align="CENTER" ellipsis="FALSE" width="350" height="350" startAngle="8" endAngle="72" centerX="0" centerY="225" direction="CLOCKWISE">
 										<Font family="roboto_sb" size="24" color="#ffffff">
-											<InlineImage resource="empty" source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
+											<InlineImage resource="index_icon_2"  source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
 											<Upper>
 												<Template>
 													%s%s
@@ -1358,7 +1358,7 @@
 												%s
 												<Parameter expression="&#160;" />
 											</Template>
-											<InlineImage resource="empty" source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
+											<InlineImage resource="index_icon_2"  source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
 											<Upper>
 												<Template>
 													%s%s %s%s
@@ -1382,7 +1382,7 @@
 								<PartText x="0" y="0" width="225" height="225" renderMode="MASK" alpha="255">
 									<TextCircular align="CENTER" ellipsis="FALSE" width="350" height="350" startAngle="8" endAngle="72" centerX="0" centerY="225" direction="CLOCKWISE">
 										<Font family="roboto_sb" size="24" color="#ffffff">
-											<InlineImage resource="empty" source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
+											<InlineImage resource="index_icon_2"  source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
 											<Upper>
 												<Template>
 													%s%s %s
@@ -1409,7 +1409,7 @@
 					<PartText x="0" y="0" width="225" height="225" renderMode="MASK" alpha="255">
 						<TextCircular align="CENTER" ellipsis="FALSE" width="350" height="350" startAngle="9" endAngle="72" centerX="0" centerY="225" direction="CLOCKWISE">
 							<Font family="roboto_sb" size="30" color="#ffffff">
-								<InlineImage resource="empty" source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
+								<InlineImage resource="index_icon_2"  source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
 							</Font>
 						</TextCircular>
 					</PartText>
@@ -1509,7 +1509,7 @@
 											%s
 											<Parameter expression="&#160;" />
 										</Template>
-										<InlineImage resource="empty" source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
+										<InlineImage resource="index_icon_2"  source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
 									</Font>
 								</TextCircular>
 							</PartText>
@@ -1544,7 +1544,7 @@
 												%s
 												<Parameter expression="&#160;" />
 											</Template>
-											<InlineImage resource="empty" source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
+											<InlineImage resource="index_icon_2"  source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
 											<Upper>
 												<Template>
 													%s%s%s
@@ -1567,7 +1567,7 @@
 								<PartText x="0" y="0" width="225" height="225" renderMode="MASK" alpha="255">
 									<TextCircular align="CENTER" ellipsis="FALSE" width="350" height="350" startAngle="262" endAngle="189" centerX="225" centerY="0" direction="COUNTER_CLOCKWISE">
 										<Font family="roboto_sb" size="24" color="#ffffff">
-											<InlineImage resource="empty" source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
+											<InlineImage resource="index_icon_2"  source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
 											<Upper>
 												<Template>
 													%s%s
@@ -1647,7 +1647,7 @@
 												%s
 												<Parameter expression="&#160;" />
 											</Template>
-											<InlineImage resource="empty" source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
+											<InlineImage resource="index_icon_2"  source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
 											<Upper>
 												<Template>
 													%s%s %s%s
@@ -1671,7 +1671,7 @@
 								<PartText x="0" y="0" width="225" height="225" renderMode="MASK" alpha="255">
 									<TextCircular align="CENTER" ellipsis="FALSE" width="350" height="350" startAngle="262" endAngle="189" centerX="225" centerY="0" direction="COUNTER_CLOCKWISE">
 										<Font family="roboto_sb" size="24" color="#ffffff">
-											<InlineImage resource="empty" source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
+											<InlineImage resource="index_icon_2"  source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
 											<Upper>
 												<Template>
 													%s%s %s
@@ -1698,7 +1698,7 @@
 					<PartText x="0" y="0" width="225" height="225" renderMode="MASK" alpha="255">
 						<TextCircular align="CENTER" ellipsis="FALSE" width="350" height="350" centerX="225" centerY="0" startAngle="261" endAngle="189" direction="COUNTER_CLOCKWISE">
 							<Font family="roboto_sb" size="30" color="#ffffff">
-								<InlineImage resource="empty" source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
+								<InlineImage resource="index_icon_2"  source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
 							</Font>
 						</TextCircular>
 					</PartText>
@@ -1798,7 +1798,7 @@
 											%s
 											<Parameter expression="&#160;" />
 										</Template>
-										<InlineImage resource="empty" source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
+										<InlineImage resource="index_icon_2"  source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
 									</Font>
 								</TextCircular>
 							</PartText>
@@ -1833,7 +1833,7 @@
 												%s
 												<Parameter expression="&#160;" />
 											</Template>
-											<InlineImage resource="empty" source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
+											<InlineImage resource="index_icon_2"  source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
 											<Upper>
 												<Template>
 													%s%s%s
@@ -1856,7 +1856,7 @@
 								<PartText x="0" y="0" width="225" height="225" renderMode="MASK" alpha="255">
 									<TextCircular align="CENTER" ellipsis="FALSE" width="350" height="350" startAngle="172" endAngle="108" centerX="0" centerY="0" direction="COUNTER_CLOCKWISE">
 										<Font family="roboto_sb" size="24" color="#ffffff">
-											<InlineImage resource="empty" source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
+											<InlineImage resource="index_icon_2"  source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
 											<Upper>
 												<Template>
 													%s%s
@@ -1936,7 +1936,7 @@
 												%s
 												<Parameter expression="&#160;" />
 											</Template>
-											<InlineImage resource="empty" source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
+											<InlineImage resource="index_icon_2"  source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
 											<Upper>
 												<Template>
 													%s%s %s%s
@@ -1960,7 +1960,7 @@
 								<PartText x="0" y="0" width="225" height="225" renderMode="MASK" alpha="255">
 									<TextCircular align="CENTER" ellipsis="FALSE" width="350" height="350" startAngle="172" endAngle="108" centerX="0" centerY="0" direction="COUNTER_CLOCKWISE">
 										<Font family="roboto_sb" size="24" color="#ffffff">
-											<InlineImage resource="empty" source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
+											<InlineImage resource="index_icon_2"  source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
 											<Upper>
 												<Template>
 													%s%s %s
@@ -1987,7 +1987,7 @@
 					<PartText x="0" y="0" width="225" height="225" renderMode="MASK" alpha="255">
 						<TextCircular align="CENTER" ellipsis="FALSE" width="350" height="350" centerX="0" centerY="0" startAngle="171" endAngle="108" direction="COUNTER_CLOCKWISE">
 							<Font family="roboto_sb" size="30" color="#ffffff">
-								<InlineImage resource="empty" source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
+								<InlineImage resource="index_icon_2"  source="COMPLICATION.MONOCHROMATIC_IMAGE" width="28" height="28" />
 							</Font>
 						</TextCircular>
 					</PartText>
