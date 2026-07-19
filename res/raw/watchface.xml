@@ -181,7 +181,7 @@
 				<PartText x="261" y="145" width="40" height="30" name="00" alpha="255">
 					<Transform target="angle" value="[MINUTE] * (-6)" />
 					<Text align="CENTER" ellipsis="FALSE">
-						<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ff999999">
+						<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ff999999">
 							00
 						</Font>
 					</Text>
@@ -189,7 +189,7 @@
 				<PartText x="245" y="85" width="40" height="30" name="05" alpha="255">
 					<Transform target="angle" value="[MINUTE] * (-6)" />
 					<Text align="CENTER" ellipsis="FALSE">
-						<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ff999999">
+						<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ff999999">
 							05
 						</Font>
 					</Text>
@@ -197,7 +197,7 @@
 				<PartText x="201" y="40" width="40" height="30" name="10" alpha="255">
 					<Transform target="angle" value="[MINUTE] * (-6)" />
 					<Text align="CENTER" ellipsis="FALSE">
-						<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ff999999">
+						<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ff999999">
 							10
 						</Font>
 					</Text>
@@ -205,7 +205,7 @@
 				<PartText x="140" y="24" width="40" height="30" name="15" alpha="255">
 					<Transform target="angle" value="[MINUTE] * (-6)" />
 					<Text align="CENTER" ellipsis="FALSE">
-						<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ff999999">
+						<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ff999999">
 							15
 						</Font>
 					</Text>
@@ -213,7 +213,7 @@
 				<PartText x="80" y="40" width="40" height="30" name="20" alpha="255">
 					<Transform target="angle" value="[MINUTE] * (-6)" />
 					<Text align="CENTER" ellipsis="FALSE">
-						<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ff999999">
+						<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ff999999">
 							20
 						</Font>
 					</Text>
@@ -221,7 +221,7 @@
 				<PartText x="35" y="85" width="40" height="30" name="25" alpha="255">
 					<Transform target="angle" value="[MINUTE] * (-6)" />
 					<Text align="CENTER" ellipsis="FALSE">
-						<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ff999999">
+						<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ff999999">
 							25
 						</Font>
 					</Text>
@@ -229,7 +229,7 @@
 				<PartText x="19" y="145" width="40" height="30" name="30" alpha="255">
 					<Transform target="angle" value="[MINUTE] * (-6)" />
 					<Text align="CENTER" ellipsis="FALSE">
-						<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ff999999">
+						<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ff999999">
 							30
 						</Font>
 					</Text>
@@ -237,7 +237,7 @@
 				<PartText x="35" y="206" width="40" height="30" name="35" alpha="255">
 					<Transform target="angle" value="[MINUTE] * (-6)" />
 					<Text align="CENTER" ellipsis="FALSE">
-						<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ff999999">
+						<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ff999999">
 							35
 						</Font>
 					</Text>
@@ -245,7 +245,7 @@
 				<PartText x="80" y="250" width="40" height="30" name="40" alpha="255">
 					<Transform target="angle" value="[MINUTE] * (-6)" />
 					<Text align="CENTER" ellipsis="FALSE">
-						<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ff999999">
+						<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ff999999">
 							40
 						</Font>
 					</Text>
@@ -253,7 +253,7 @@
 				<PartText x="140" y="266" width="40" height="30" name="45" alpha="255">
 					<Transform target="angle" value="[MINUTE] * (-6)" />
 					<Text align="CENTER" ellipsis="FALSE">
-						<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ff999999">
+						<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ff999999">
 							45
 						</Font>
 					</Text>
@@ -261,7 +261,7 @@
 				<PartText x="201" y="250" width="40" height="30" name="50" alpha="255">
 					<Transform target="angle" value="[MINUTE] * (-6)" />
 					<Text align="CENTER" ellipsis="FALSE">
-						<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ff999999">
+						<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ff999999">
 							50
 						</Font>
 					</Text>
@@ -269,7 +269,7 @@
 				<PartText x="245" y="206" width="40" height="30" name="55" alpha="255">
 					<Transform target="angle" value="[MINUTE] * (-6)" />
 					<Text align="CENTER" ellipsis="FALSE">
-						<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ff999999">
+						<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ff999999">
 							55
 						</Font>
 					</Text>
@@ -343,7 +343,7 @@
 								<Animation duration="1" angleDirection="COUNTER_CLOCKWISE" />
 							</Transform>
 							<Text align="CENTER" ellipsis="FALSE">
-								<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+								<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 									00
 								</Font>
 							</Text>
@@ -353,7 +353,7 @@
 								<Animation duration="1" angleDirection="COUNTER_CLOCKWISE" />
 							</Transform>
 							<Text align="CENTER" ellipsis="FALSE">
-								<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+								<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 									05
 								</Font>
 							</Text>
@@ -363,7 +363,7 @@
 								<Animation duration="1" angleDirection="COUNTER_CLOCKWISE" />
 							</Transform>
 							<Text align="CENTER" ellipsis="FALSE">
-								<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+								<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 									10
 								</Font>
 							</Text>
@@ -373,7 +373,7 @@
 								<Animation duration="1" angleDirection="COUNTER_CLOCKWISE" />
 							</Transform>
 							<Text align="CENTER" ellipsis="FALSE">
-								<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+								<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 									15
 								</Font>
 							</Text>
@@ -383,7 +383,7 @@
 								<Animation duration="1" angleDirection="COUNTER_CLOCKWISE" />
 							</Transform>
 							<Text align="CENTER" ellipsis="FALSE">
-								<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+								<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 									20
 								</Font>
 							</Text>
@@ -393,7 +393,7 @@
 								<Animation duration="1" angleDirection="COUNTER_CLOCKWISE" />
 							</Transform>
 							<Text align="CENTER" ellipsis="FALSE">
-								<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+								<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 									25
 								</Font>
 							</Text>
@@ -403,7 +403,7 @@
 								<Animation duration="1" angleDirection="COUNTER_CLOCKWISE" />
 							</Transform>
 							<Text align="CENTER" ellipsis="FALSE">
-								<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+								<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 									30
 								</Font>
 							</Text>
@@ -413,7 +413,7 @@
 								<Animation duration="1" angleDirection="COUNTER_CLOCKWISE" />
 							</Transform>
 							<Text align="CENTER" ellipsis="FALSE">
-								<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+								<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 									35
 								</Font>
 							</Text>
@@ -423,7 +423,7 @@
 								<Animation duration="1" angleDirection="COUNTER_CLOCKWISE" />
 							</Transform>
 							<Text align="CENTER" ellipsis="FALSE">
-								<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+								<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 									40
 								</Font>
 							</Text>
@@ -433,7 +433,7 @@
 								<Animation duration="1" angleDirection="COUNTER_CLOCKWISE" />
 							</Transform>
 							<Text align="CENTER" ellipsis="FALSE">
-								<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+								<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 									45
 								</Font>
 							</Text>
@@ -443,7 +443,7 @@
 								<Animation duration="1" angleDirection="COUNTER_CLOCKWISE" />
 							</Transform>
 							<Text align="CENTER" ellipsis="FALSE">
-								<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+								<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 									50
 								</Font>
 							</Text>
@@ -453,7 +453,7 @@
 								<Animation duration="1" angleDirection="COUNTER_CLOCKWISE" />
 							</Transform>
 							<Text align="CENTER" ellipsis="FALSE">
-								<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+								<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 									55
 								</Font>
 							</Text>
@@ -653,84 +653,84 @@
 					<Group x="0" y="0" width="450" height="450" name="seconds" alpha="255">
 						<PartText x="392" y="210" width="40" height="30" name="00" tintColor="[CONFIGURATION.a0SecondsColor]" alpha="255">
 							<Text align="CENTER" ellipsis="FALSE">
-								<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+								<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 									00
 								</Font>
 							</Text>
 						</PartText>
 						<PartText x="366" y="116" width="40" height="30" name="05" tintColor="[CONFIGURATION.a0SecondsColor]" alpha="255">
 							<Text align="CENTER" ellipsis="FALSE">
-								<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+								<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 									05
 								</Font>
 							</Text>
 						</PartText>
 						<PartText x="298" y="48" width="40" height="30" name="10" tintColor="[CONFIGURATION.a0SecondsColor]" alpha="255">
 							<Text align="CENTER" ellipsis="FALSE">
-								<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+								<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 									10
 								</Font>
 							</Text>
 						</PartText>
 						<PartText x="205" y="23" width="40" height="30" name="15" tintColor="[CONFIGURATION.a0SecondsColor]" alpha="255">
 							<Text align="CENTER" ellipsis="FALSE">
-								<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+								<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 									15
 								</Font>
 							</Text>
 						</PartText>
 						<PartText x="112" y="48" width="40" height="30" name="20" tintColor="[CONFIGURATION.a0SecondsColor]" alpha="255">
 							<Text align="CENTER" ellipsis="FALSE">
-								<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+								<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 									20
 								</Font>
 							</Text>
 						</PartText>
 						<PartText x="44" y="116" width="40" height="30" name="25" tintColor="[CONFIGURATION.a0SecondsColor]" alpha="255">
 							<Text align="CENTER" ellipsis="FALSE">
-								<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+								<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 									25
 								</Font>
 							</Text>
 						</PartText>
 						<PartText x="18" y="210" width="40" height="30" name="30" tintColor="[CONFIGURATION.a0SecondsColor]" alpha="255">
 							<Text align="CENTER" ellipsis="FALSE">
-								<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+								<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 									30
 								</Font>
 							</Text>
 						</PartText>
 						<PartText x="44" y="304" width="40" height="30" name="35" tintColor="[CONFIGURATION.a0SecondsColor]" alpha="255">
 							<Text align="CENTER" ellipsis="FALSE">
-								<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+								<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 									35
 								</Font>
 							</Text>
 						</PartText>
 						<PartText x="112" y="372" width="40" height="30" name="40" tintColor="[CONFIGURATION.a0SecondsColor]" alpha="255">
 							<Text align="CENTER" ellipsis="FALSE">
-								<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+								<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 									40
 								</Font>
 							</Text>
 						</PartText>
 						<PartText x="205" y="397" width="40" height="30" name="45" tintColor="[CONFIGURATION.a0SecondsColor]" alpha="255">
 							<Text align="CENTER" ellipsis="FALSE">
-								<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+								<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 									45
 								</Font>
 							</Text>
 						</PartText>
 						<PartText x="298" y="372" width="40" height="30" name="50" tintColor="[CONFIGURATION.a0SecondsColor]" alpha="255">
 							<Text align="CENTER" ellipsis="FALSE">
-								<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+								<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 									50
 								</Font>
 							</Text>
 						</PartText>
 						<PartText x="366" y="304" width="40" height="30" name="55" tintColor="[CONFIGURATION.a0SecondsColor]" alpha="255">
 							<Text align="CENTER" ellipsis="FALSE">
-								<Font family="inter_regular" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
+								<Font family="inter_medium" size="24" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 									55
 								</Font>
 							</Text>
