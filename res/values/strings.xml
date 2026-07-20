@@ -63,6 +63,12 @@
 	<string name="placeholder_bar">
 		Placeholder Bars
 	</string>
+	<string name="h_format">
+		24H Format
+	</string>
+	<string name="leading_zero">
+		Leading Zero
+	</string>
 	<string name="complication">
 		Complication
 	</string>

@@ -148,6 +148,8 @@
 		<BooleanConfiguration id="z2_aod_pill" displayName="aod_pill" defaultValue="TRUE" />
 		<BooleanConfiguration id="z3_aod_compl" displayName="aod_compl" defaultValue="TRUE" />
 		<BooleanConfiguration id="z4_placeholder_bar" displayName="placeholder_bar" defaultValue="TRUE" />
+		<BooleanConfiguration id="z5_24_h_format" displayName="h_format" defaultValue="FALSE" />
+		<BooleanConfiguration id="z6_leading_zero" displayName="leading_zero" defaultValue="FALSE" />
 	</UserConfigurations>
 	<Scene backgroundColor="#ff000000">
 		<Group x="65" y="65" width="320" height="320" scaleX="0.95" scaleY="0.95" name="minutes" alpha="255">
@@ -873,7 +875,7 @@
 					<Font family="inter_medium" size="90" weight="NORMAL" slant="NORMAL" color="#ffffffff">
 						<Template>
 							%s
-							<Parameter expression="[IS_24_HOUR_MODE]? [HOUR_0_23_Z]: [HOUR_1_12]" />
+							<Parameter expression="[CONFIGURATION.z5_24_h_format]? ([CONFIGURATION.z6_leading_zero]? [HOUR_0_23_Z]: [HOUR_0_23]): ([CONFIGURATION.z6_leading_zero]? [HOUR_1_12_Z]:[HOUR_1_12])" />
 						</Template>
 					</Font>
 				</Text>
