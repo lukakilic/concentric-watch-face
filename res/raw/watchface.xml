@@ -6,27 +6,27 @@
 		<ColorConfiguration id="a0SecondsColor" defaultValue="1" displayName="secondsColor">
 			<ColorOption id="0" displayName="snow" colors="#ffffff" />
 			<ColorOption id="1" displayName="cloud" colors="#a7a7a7" />
-			<ColorOption id="2" displayName="watermelon" colors="#e96868" />
+			<ColorOption id="2" displayName="watermelon" colors="#ff7572" />
 			<ColorOption id="3" displayName="tangerine_red" colors="#f97254" />
 			<ColorOption id="4" displayName="pumpkin" colors="#f48465" />
-			<ColorOption id="5" displayName="coral" colors="#c0a489" />
+			<ColorOption id="5" displayName="coral" colors="#f99181" />
 			<ColorOption id="6" displayName="mango" colors="#f3976b" />
 			<ColorOption id="7" displayName="gold" colors="#f4af65" />
 			<ColorOption id="8" displayName="tangerine" colors="#edb789" />
-			<ColorOption id="9" displayName="peach" colors="#fec086" />
+			<ColorOption id="9" displayName="peach" colors="#ffb891" />
 			<ColorOption id="10" displayName="sunshine" colors="#e6d469" />
 			<ColorOption id="11" displayName="minty_yellow" colors="#edd854" />
 			<ColorOption id="12" displayName="mango_yellow" colors="#f8d280" />
-			<ColorOption id="13" displayName="mint" colors="#88c58e" />
+			<ColorOption id="13" displayName="mint" colors="#80fdd5" />
 			<ColorOption id="14" displayName="peppermint" colors="#6ee294" />
 			<ColorOption id="15" displayName="spring_green" colors="#a4ce82" />
-			<ColorOption id="16" displayName="forest" colors="#aac588" />
+			<ColorOption id="16" displayName="forest" colors="#6a9685" />
 			<ColorOption id="17" displayName="emerald" colors="#abd686" />
-			<ColorOption id="18" displayName="lime" colors="#b7e26e" />
-			<ColorOption id="19" displayName="sky" colors="#99b4c5" />
+			<ColorOption id="18" displayName="lime" colors="#e6ff7b" />
+			<ColorOption id="19" displayName="sky" colors="#aedfff" />
 			<ColorOption id="20" displayName="turquoise" colors="#83d7ba" />
 			<ColorOption id="21" displayName="teal" colors="#83d7ba" />
-			<ColorOption id="22" displayName="ocean" colors="#79b1f3" />
+			<ColorOption id="22" displayName="ocean" colors="#94bafa" />
 			<ColorOption id="23" displayName="celeste" colors="#8ec2df" />
 			<ColorOption id="24" displayName="azure" colors="#86b0fa" />
 			<ColorOption id="25" displayName="aquamarine" colors="#80f5e2" />
@@ -35,40 +35,40 @@
 			<ColorOption id="28" displayName="baby_blue" colors="#aed3fb" />
 			<ColorOption id="29" displayName="aqua_light" colors="#aed6fb" />
 			<ColorOption id="30" displayName="royal" colors="#9990be" />
-			<ColorOption id="31" displayName="lavender" colors="#9281ef" />
-			<ColorOption id="32" displayName="amethyst" colors="#b08cd1" />
+			<ColorOption id="31" displayName="lavender" colors="#d593fe" />
+			<ColorOption id="32" displayName="amethyst" colors="#a0a7ff" />
 			<ColorOption id="33" displayName="floral" colors="#c091eb" />
-			<ColorOption id="34" displayName="lilac" colors="#ada5fc" />
+			<ColorOption id="34" displayName="lilac" colors="#d0baff" />
 			<ColorOption id="35" displayName="apricot" colors="#c3a6ee" />
 			<ColorOption id="36" displayName="cotton_candy" colors="#e0b2fc" />
-			<ColorOption id="37" displayName="flamingo" colors="#e58bb6" />
+			<ColorOption id="37" displayName="flamingo" colors="#f9b0ff" />
 			<ColorOption id="38" displayName="blush" colors="#e58bb6" />
 			<ColorOption id="39" displayName="rose" colors="#ff8ed3" />
 		</ColorConfiguration>
 		<ColorConfiguration id="a1ComplicationColor" defaultValue="1" displayName="complicationColor">
 			<ColorOption id="0" displayName="snow" colors="#ffffff" />
 			<ColorOption id="1" displayName="cloud" colors="#a7a7a7" />
-			<ColorOption id="2" displayName="watermelon" colors="#e96868" />
+			<ColorOption id="2" displayName="watermelon" colors="#ff7b78" />
 			<ColorOption id="3" displayName="tangerine_red" colors="#f97254" />
 			<ColorOption id="4" displayName="pumpkin" colors="#f48465" />
-			<ColorOption id="5" displayName="coral" colors="#c0a489" />
+			<ColorOption id="5" displayName="coral" colors="#f99586" />
 			<ColorOption id="6" displayName="mango" colors="#f3976b" />
 			<ColorOption id="7" displayName="gold" colors="#f4af65" />
 			<ColorOption id="8" displayName="tangerine" colors="#edb789" />
-			<ColorOption id="9" displayName="peach" colors="#fec086" />
+			<ColorOption id="9" displayName="peach" colors="#fdb78f" />
 			<ColorOption id="10" displayName="sunshine" colors="#e6d469" />
 			<ColorOption id="11" displayName="minty_yellow" colors="#edd854" />
 			<ColorOption id="12" displayName="mango_yellow" colors="#f8d280" />
-			<ColorOption id="13" displayName="mint" colors="#88c58e" />
+			<ColorOption id="13" displayName="mint" colors="#abffdf" />
 			<ColorOption id="14" displayName="peppermint" colors="#6ee294" />
 			<ColorOption id="15" displayName="spring_green" colors="#a4ce82" />
-			<ColorOption id="16" displayName="forest" colors="#aac588" />
+			<ColorOption id="16" displayName="forest" colors="#67887b" />
 			<ColorOption id="17" displayName="emerald" colors="#abd686" />
-			<ColorOption id="18" displayName="lime" colors="#b7e26e" />
-			<ColorOption id="19" displayName="sky" colors="#99b4c5" />
+			<ColorOption id="18" displayName="lime" colors="#e6ff7b" />
+			<ColorOption id="19" displayName="sky" colors="#b6daf1" />
 			<ColorOption id="20" displayName="turquoise" colors="#83d7ba" />
 			<ColorOption id="21" displayName="teal" colors="#83d7ba" />
-			<ColorOption id="22" displayName="ocean" colors="#79b1f3" />
+			<ColorOption id="22" displayName="ocean" colors="#a2c2f7" />
 			<ColorOption id="23" displayName="celeste" colors="#8ec2df" />
 			<ColorOption id="24" displayName="azure" colors="#86b0fa" />
 			<ColorOption id="25" displayName="aquamarine" colors="#80f5e2" />
@@ -77,40 +77,40 @@
 			<ColorOption id="28" displayName="baby_blue" colors="#aed3fb" />
 			<ColorOption id="29" displayName="aqua_light" colors="#aed6fb" />
 			<ColorOption id="30" displayName="royal" colors="#9990be" />
-			<ColorOption id="31" displayName="lavender" colors="#9281ef" />
-			<ColorOption id="32" displayName="amethyst" colors="#b08cd1" />
+			<ColorOption id="31" displayName="lavender" colors="#e4b0fd" />
+			<ColorOption id="32" displayName="amethyst" colors="#aeb4ff" />
 			<ColorOption id="33" displayName="floral" colors="#c091eb" />
-			<ColorOption id="34" displayName="lilac" colors="#ada5fc" />
+			<ColorOption id="34" displayName="lilac" colors="#d6c3ff" />
 			<ColorOption id="35" displayName="apricot" colors="#c3a6ee" />
 			<ColorOption id="36" displayName="cotton_candy" colors="#e0b2fc" />
-			<ColorOption id="37" displayName="flamingo" colors="#e58bb6" />
+			<ColorOption id="37" displayName="flamingo" colors="#fabbff" />
 			<ColorOption id="38" displayName="blush" colors="#e58bb6" />
 			<ColorOption id="39" displayName="rose" colors="#ff8ed3" />
 		</ColorConfiguration>
 		<ColorConfiguration id="a2AccentColor" defaultValue="1" displayName="accentColor">
 			<ColorOption id="0" displayName="snow" colors="#ffffff" />
 			<ColorOption id="1" displayName="cloud" colors="#a7a7a7" />
-			<ColorOption id="2" displayName="watermelon" colors="#e96868" />
+			<ColorOption id="2" displayName="watermelon" colors="#ff7572" />
 			<ColorOption id="3" displayName="tangerine_red" colors="#f97254" />
 			<ColorOption id="4" displayName="pumpkin" colors="#f48465" />
-			<ColorOption id="5" displayName="coral" colors="#c0a489" />
+			<ColorOption id="5" displayName="coral" colors="#f99181" />
 			<ColorOption id="6" displayName="mango" colors="#f3976b" />
 			<ColorOption id="7" displayName="gold" colors="#f4af65" />
 			<ColorOption id="8" displayName="tangerine" colors="#edb789" />
-			<ColorOption id="9" displayName="peach" colors="#fec086" />
+			<ColorOption id="9" displayName="peach" colors="#ffb891" />
 			<ColorOption id="10" displayName="sunshine" colors="#e6d469" />
 			<ColorOption id="11" displayName="minty_yellow" colors="#edd854" />
 			<ColorOption id="12" displayName="mango_yellow" colors="#f8d280" />
-			<ColorOption id="13" displayName="mint" colors="#88c58e" />
+			<ColorOption id="13" displayName="mint" colors="#80fdd5" />
 			<ColorOption id="14" displayName="peppermint" colors="#6ee294" />
 			<ColorOption id="15" displayName="spring_green" colors="#a4ce82" />
-			<ColorOption id="16" displayName="forest" colors="#aac588" />
+			<ColorOption id="16" displayName="forest" colors="#6a9685" />
 			<ColorOption id="17" displayName="emerald" colors="#abd686" />
-			<ColorOption id="18" displayName="lime" colors="#b7e26e" />
-			<ColorOption id="19" displayName="sky" colors="#99b4c5" />
+			<ColorOption id="18" displayName="lime" colors="#e6ff7b" />
+			<ColorOption id="19" displayName="sky" colors="#aedfff" />
 			<ColorOption id="20" displayName="turquoise" colors="#83d7ba" />
 			<ColorOption id="21" displayName="teal" colors="#83d7ba" />
-			<ColorOption id="22" displayName="ocean" colors="#79b1f3" />
+			<ColorOption id="22" displayName="ocean" colors="#94bafa" />
 			<ColorOption id="23" displayName="celeste" colors="#8ec2df" />
 			<ColorOption id="24" displayName="azure" colors="#86b0fa" />
 			<ColorOption id="25" displayName="aquamarine" colors="#80f5e2" />
@@ -119,13 +119,13 @@
 			<ColorOption id="28" displayName="baby_blue" colors="#aed3fb" />
 			<ColorOption id="29" displayName="aqua_light" colors="#aed6fb" />
 			<ColorOption id="30" displayName="royal" colors="#9990be" />
-			<ColorOption id="31" displayName="lavender" colors="#9281ef" />
-			<ColorOption id="32" displayName="amethyst" colors="#b08cd1" />
+			<ColorOption id="31" displayName="lavender" colors="#d593fe" />
+			<ColorOption id="32" displayName="amethyst" colors="#a0a7ff" />
 			<ColorOption id="33" displayName="floral" colors="#c091eb" />
-			<ColorOption id="34" displayName="lilac" colors="#ada5fc" />
+			<ColorOption id="34" displayName="lilac" colors="#d0baff" />
 			<ColorOption id="35" displayName="apricot" colors="#c3a6ee" />
 			<ColorOption id="36" displayName="cotton_candy" colors="#e0b2fc" />
-			<ColorOption id="37" displayName="flamingo" colors="#e58bb6" />
+			<ColorOption id="37" displayName="flamingo" colors="#f9b0ff" />
 			<ColorOption id="38" displayName="blush" colors="#e58bb6" />
 			<ColorOption id="39" displayName="rose" colors="#ff8ed3" />
 		</ColorConfiguration>
