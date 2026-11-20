@@ -44,6 +44,28 @@
 			<ColorOption id="37" displayName="flamingo" colors="#e58bb6" />
 			<ColorOption id="38" displayName="blush" colors="#e58bb6" />
 			<ColorOption id="39" displayName="rose" colors="#ff8ed3" />
+			<ColorOption id="40" displayName="graphite" colors="#9b9b9b" />
+			<ColorOption id="41" displayName="almond" colors="#fff6e2" />
+			<ColorOption id="42" displayName="pomelo" colors="#f8908b" />
+			<ColorOption id="43" displayName="guava" colors="#ffb2ad" />
+			<ColorOption id="44" displayName="champagne" colors="#ffc79f" />
+			<ColorOption id="45" displayName="chai" colors="#d8a161" />
+			<ColorOption id="46" displayName="sand" colors="#cbbb75" />
+			<ColorOption id="47" displayName="honey" colors="#fac16e" />
+			<ColorOption id="48" displayName="melon" colors="#ffd786" />
+			<ColorOption id="49" displayName="wheat" colors="#ffe9b9" />
+			<ColorOption id="50" displayName="dandelion" colors="#fffa7a" />
+			<ColorOption id="51" displayName="limoncello" colors="#fcffb6" />
+			<ColorOption id="52" displayName="lemongrass" colors="#e8febb" />
+			<ColorOption id="53" displayName="pear" colors="#c7ff81" />
+			<ColorOption id="54" displayName="spearmint" colors="#9df8ab" />
+			<ColorOption id="55" displayName="fern" colors="#73e1a5" />
+			<ColorOption id="56" displayName="jade" colors="#b0f1d9" />
+			<ColorOption id="57" displayName="sage" colors="#b2dcd3" />
+			<ColorOption id="58" displayName="stream" colors="#9fe2ec" />
+			<ColorOption id="59" displayName="aqua" colors="#99f3ff" />
+			<ColorOption id="60" displayName="sapphire" colors="#75a5f4" />
+			<ColorOption id="61" displayName="bubble_gum" colors="#ffbae8" />
 		</ColorConfiguration>
 		<ColorConfiguration id="a1ComplicationColor" defaultValue="1" displayName="complicationColor">
 			<ColorOption id="0" displayName="snow" colors="#ffffff" />
@@ -86,6 +108,28 @@
 			<ColorOption id="37" displayName="flamingo" colors="#e58bb6" />
 			<ColorOption id="38" displayName="blush" colors="#e58bb6" />
 			<ColorOption id="39" displayName="rose" colors="#ff8ed3" />
+			<ColorOption id="40" displayName="graphite" colors="#949494" />
+			<ColorOption id="41" displayName="almond" colors="#fcf7eb" />
+			<ColorOption id="42" displayName="pomelo" colors="#ffa49f" />
+			<ColorOption id="43" displayName="guava" colors="#ffc1bd" />
+			<ColorOption id="44" displayName="champagne" colors="#ffd4b6" />
+			<ColorOption id="45" displayName="chai" colors="#d8ab77" />
+			<ColorOption id="46" displayName="sand" colors="#c4b575" />
+			<ColorOption id="47" displayName="honey" colors="#f8c67c" />
+			<ColorOption id="48" displayName="melon" colors="#ffd88a" />
+			<ColorOption id="49" displayName="wheat" colors="#ffe9b9" />
+			<ColorOption id="50" displayName="dandelion" colors="#fffa86" />
+			<ColorOption id="51" displayName="limoncello" colors="#fcffb6" />
+			<ColorOption id="52" displayName="lemongrass" colors="#ebffc3" />
+			<ColorOption id="53" displayName="pear" colors="#c7ff81" />
+			<ColorOption id="54" displayName="spearmint" colors="#adf7b9" />
+			<ColorOption id="55" displayName="fern" colors="#77d9a4" />
+			<ColorOption id="56" displayName="jade" colors="#beecdb" />
+			<ColorOption id="57" displayName="sage" colors="#cce4df" />
+			<ColorOption id="58" displayName="stream" colors="#b0e4ec" />
+			<ColorOption id="59" displayName="aqua" colors="#99f3ff" />
+			<ColorOption id="60" displayName="sapphire" colors="#81acf4" />
+			<ColorOption id="61" displayName="bubble_gum" colors="#ffcaed" />
 		</ColorConfiguration>
 		<ColorConfiguration id="a2AccentColor" defaultValue="1" displayName="accentColor">
 			<ColorOption id="0" displayName="snow" colors="#ffffff" />
@@ -128,6 +172,28 @@
 			<ColorOption id="37" displayName="flamingo" colors="#e58bb6" />
 			<ColorOption id="38" displayName="blush" colors="#e58bb6" />
 			<ColorOption id="39" displayName="rose" colors="#ff8ed3" />
+			<ColorOption id="40" displayName="graphite" colors="#9b9b9b" />
+			<ColorOption id="41" displayName="almond" colors="#fff6e2" />
+			<ColorOption id="42" displayName="pomelo" colors="#f8908b" />
+			<ColorOption id="43" displayName="guava" colors="#ffb2ad" />
+			<ColorOption id="44" displayName="champagne" colors="#ffc79f" />
+			<ColorOption id="45" displayName="chai" colors="#d8a161" />
+			<ColorOption id="46" displayName="sand" colors="#cbbb75" />
+			<ColorOption id="47" displayName="honey" colors="#fac16e" />
+			<ColorOption id="48" displayName="melon" colors="#ffd786" />
+			<ColorOption id="49" displayName="wheat" colors="#ffe9b9" />
+			<ColorOption id="50" displayName="dandelion" colors="#fffa7a" />
+			<ColorOption id="51" displayName="limoncello" colors="#fcffb6" />
+			<ColorOption id="52" displayName="lemongrass" colors="#e8febb" />
+			<ColorOption id="53" displayName="pear" colors="#c7ff81" />
+			<ColorOption id="54" displayName="spearmint" colors="#9df8ab" />
+			<ColorOption id="55" displayName="fern" colors="#73e1a5" />
+			<ColorOption id="56" displayName="jade" colors="#b0f1d9" />
+			<ColorOption id="57" displayName="sage" colors="#b2dcd3" />
+			<ColorOption id="58" displayName="stream" colors="#9fe2ec" />
+			<ColorOption id="59" displayName="aqua" colors="#99f3ff" />
+			<ColorOption id="60" displayName="sapphire" colors="#75a5f4" />
+			<ColorOption id="61" displayName="bubble_gum" colors="#ffbae8" />
 		</ColorConfiguration>
 		<ListConfiguration id="z0_index" displayName="index" icon="index_icon_0" defaultValue="0">
 			<ListOption id="0" icon="index_icon_0" displayName="index_0" />

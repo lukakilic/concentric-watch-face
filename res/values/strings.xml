@@ -192,4 +192,70 @@
 	<string name="rose">
 		Rose
 	</string>
+	<string name="graphite">
+		Graphite
+	</string>
+	<string name="almond">
+		Almond
+	</string>
+	<string name="pomelo">
+		Pomelo
+	</string>
+	<string name="guava">
+		Guava
+	</string>
+	<string name="champagne">
+		Champagne
+	</string>
+	<string name="chai">
+		Chai
+	</string>
+	<string name="sand">
+		Sand
+	</string>
+	<string name="honey">
+		Honey
+	</string>
+	<string name="melon">
+		Melon
+	</string>
+	<string name="wheat">
+		Wheat
+	</string>
+	<string name="dandelion">
+		Dandelion
+	</string>
+	<string name="limoncello">
+		Limoncello
+	</string>
+	<string name="lemongrass">
+		Lemongrass
+	</string>
+	<string name="pear">
+		Pear
+	</string>
+	<string name="spearmint">
+		Spearmint
+	</string>
+	<string name="fern">
+		Fern
+	</string>
+	<string name="jade">
+		Jade
+	</string>
+	<string name="sage">
+		Sage
+	</string>
+	<string name="stream">
+		Stream
+	</string>
+	<string name="aqua">
+		Aqua
+	</string>
+	<string name="sapphire">
+		Sapphire
+	</string>
+	<string name="bubble_gum">
+		Bubble Gum
+	</string>
 </resources>
