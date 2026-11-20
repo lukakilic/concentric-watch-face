@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="watch_face_name">
+		Konzentrisch
+	</string>
+	<string name="secondsColor">
+		Sekundenfarbe
+	</string>
+	<string name="complicationColor">
+		Komplikationsfarbe
+	</string>
+	<string name="accentColor">
+		Akzentfarbe
+	</string>
+	<string name="index">
+		Index
+	</string>
+	<string name="index_0">
+		Vollständig
+	</string>
+	<string name="index_1">
+		Teilweise
+	</string>
+	<string name="index_2">
+		-
+	</string>
+	<string name="aod_style">
+		AOD-Stil
+	</string>
+	<string name="aod_0">
+		Standard-AOD
+	</string>
+	<string name="aod_1">
+		Ring &amp; Index
+	</string>
+	<string name="aod_2">
+		Index
+	</string>
+	<string name="aod_3">
+		Nur Uhrzeit
+	</string>
+	<string name="aod_pill">
+		AOD-Pille
+	</string>
+	<string name="smoother">
+		Flüssiger
+	</string>
+	<string name="mode">
+		Modus
+	</string>
+	<string name="mode_0">
+		Standardmodus
+	</string>
+	<string name="mode_1">
+		Kleine Sekunden
+	</string>
+	<string name="mode_2">
+		Nur Index
+	</string>
+	<string name="aod_compl">
+		AOD-Komplikation
+	</string>
+	<string name="placeholder_bar">
+		Platzhalterbalken
+	</string>
+	<string name="h_format">
+		24-Stunden-Format
+	</string>
+	<string name="leading_zero">
+		Führende Null
+	</string>
+	<string name="complication">
+		Komplikation
+	</string>
+	<string name="snow">
+		Schnee
+	</string>
+	<string name="cloud">
+		Wolke
+	</string>
+	<string name="watermelon">
+		Wassermelone
+	</string>
+	<string name="tangerine_red">
+		Mandarinenrot
+	</string>
+	<string name="pumpkin">
+		Kürbis
+	</string>
+	<string name="coral">
+		Koralle
+	</string>
+	<string name="mango">
+		Mango
+	</string>
+	<string name="gold">
+		Gold
+	</string>
+	<string name="tangerine">
+		Mandarine
+	</string>
+	<string name="peach">
+		Pfirsich
+	</string>
+	<string name="sunshine">
+		Sonnenschein
+	</string>
+	<string name="minty_yellow">
+		Minzgelb
+	</string>
+	<string name="mango_yellow">
+		Mangogelb
+	</string>
+	<string name="mint">
+		Minze
+	</string>
+	<string name="peppermint">
+		Pfefferminze
+	</string>
+	<string name="spring_green">
+		Frühlingsgrün
+	</string>
+	<string name="forest">
+		Wald
+	</string>
+	<string name="emerald">
+		Smaragd
+	</string>
+	<string name="lime">
+		Limette
+	</string>
+	<string name="sky">
+		Himmel
+	</string>
+	<string name="turquoise">
+		Türkis
+	</string>
+	<string name="teal">
+		Petrol
+	</string>
+	<string name="ocean">
+		Ozean
+	</string>
+	<string name="celeste">
+		Himmelblau
+	</string>
+	<string name="azure">
+		Azurblau
+	</string>
+	<string name="aquamarine">
+		Aquamarin
+	</string>
+	<string name="periwinkle">
+		Immergrünblau
+	</string>
+	<string name="frost">
+		Frost
+	</string>
+	<string name="baby_blue">
+		Babyblau
+	</string>
+	<string name="aqua_light">
+		Hell-Aqua
+	</string>
+	<string name="royal">
+		Königsblau
+	</string>
+	<string name="lavender">
+		Lavendel
+	</string>
+	<string name="amethyst">
+		Amethyst
+	</string>
+	<string name="floral">
+		Blumig
+	</string>
+	<string name="lilac">
+		Flieder
+	</string>
+	<string name="apricot">
+		Aprikose
+	</string>
+	<string name="cotton_candy">
+		Zuckerwatte
+	</string>
+	<string name="flamingo">
+		Flamingo
+	</string>
+	<string name="blush">
+		Roséton
+	</string>
+	<string name="rose">
+		Rosa
+	</string>
+</resources>
